@@ -1,0 +1,37 @@
+@media only screen and (min-width: 1200px) {
+    .inote-g-fixed {
+        max-width: 1200px;
+    }
+}
+.am-with-topbar-fixed-top{
+    padding-top: 60px
+}
+.inote-main {
+    padding: 20px 0;
+}
+
+.inote-title {
+    margin: 10px 0 20px 0;
+}
+
+.inote-words{
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.inote-pagination a {
+    font-size: 1.4rem;
+}
+
+.inote-footer {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.brand-i{
+    font-size: 1.8rem;
+}
+
+.brand-note{
+    font-size: 1.6rem;
+}

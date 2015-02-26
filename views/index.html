@@ -1,0 +1,23 @@
+{{template "header" .}}
+{{template "sidebar" .}}
+<div class="am-u-md-8">
+    {{range .Posts}}
+    <article class="inote-main">
+        <h3 class="am-article-title inote-title">
+            <a href="/i/posts/{{.id}}">{{.title}}</a>
+        </h3>
+        <h4 class="am-article-meta inote-meta"><span class="am-icon-calendar"></span> {{.publish_at}}</h4>
+    </article>
+
+    <hr class="am-article-divider">
+
+    {{end}}
+
+    <ul class="am-pagination">
+        <li class="am-pagination-prev"><a href="">&laquo; 上一页</a></li>
+        <li class="am-pagination-next"><a href="">下一页 &raquo;</a></li>
+    </ul>
+</div>
+
+</div>
+{{template "footer"}}
