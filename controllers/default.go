@@ -75,7 +75,7 @@ func (this *PostController) One(){
 	}
 	qsPost := new(models.Post)
 	post := models.Post{Id: int64(id)}
-	qsPost.Query().RelatedSel().One(&post)
+	qsPost.Query().RelatedSel().Filter("id", id).One(&post)
 	this.Data["Post"] = post
 	this.TplNames = "postdetail.html"
 }
