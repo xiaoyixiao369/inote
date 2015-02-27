@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;inote&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../lemei" />
+      <root url="file://$PROJECT_DIR$/../../../leango" />
+      <root url="file://$PROJECT_DIR$/../../../beetest" />
+      <root url="file://$PROJECT_DIR$/../../../.DS_Store" />
+      <root url="file://$PROJECT_DIR$/../../lib" />
+      <root url="file://$PROJECT_DIR$/../../beego" />
+      <root url="file://$PROJECT_DIR$/../../fatih" />
+      <root url="file://$PROJECT_DIR$/../../getwe" />
+      <root url="file://$PROJECT_DIR$/../../slene" />
+      <root url="file://$PROJECT_DIR$/../../howeyc" />
+      <root url="file://$PROJECT_DIR$/../../astaxie" />
+      <root url="file://$PROJECT_DIR$/../../Unknwon" />
+      <root url="file://$PROJECT_DIR$/../../.DS_Store" />
+      <root url="file://$PROJECT_DIR$/../../gopherchina" />
+      <root url="file://$PROJECT_DIR$/../.DS_Store" />
+      <root url="file://$PROJECT_DIR$/../../go-sql-driver" />
+      <root url="file://$PROJECT_DIR$/../../smartystreets" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
