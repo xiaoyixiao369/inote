@@ -12,6 +12,7 @@ func init() {
     nsApi :=
         beego.NewNamespace("/i",
         beego.NSRouter("/posts/:id", &controllers.PostController{}, "get:One"),
+        beego.NSRouter("/catetory/:id", &controllers.PostController{}, "get:Category"),
     )
     beego.AddNamespace(nsApi)
 

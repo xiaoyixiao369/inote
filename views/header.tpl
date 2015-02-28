@@ -1,4 +1,3 @@
-{{define "header"}}
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -31,4 +30,3 @@
     </ul>
   </div>
 </header>
-{{end}}

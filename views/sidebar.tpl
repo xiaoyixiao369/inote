@@ -1,4 +1,3 @@
-{{define "sidebar"}}
 <div class="am-g am-g-fixed inote-g-fixed">
   <div class="am-u-md-3">
     <div class="am-panel-group">
@@ -14,10 +13,9 @@
               <div class="am-panel-hd">分类</div>
               <ul class="am-list inote-list">
                 {{range .Categories}}
-                   <li><a href="#">{{.Name}}</a></li>
+                   <li><a href="/i/catetory/{{.Id}}">{{.Name}}</a></li>
                 {{end}}
               </ul>
             </section>
     </div>
-  </div>
-{{end}}
+</div>
