@@ -4,9 +4,9 @@
       <section class="am-panel am-panel-default">
         <div class="am-panel-hd">关于我</div>
         <div class="am-panel-bd">
-          <p><img class="am-circle" src="/static/img/1.jpg" width="140" height="140"/></p>
-          <p>iNote正在开发中.....</p>
-          <a class="am-btn am-btn-success am-btn-sm" href="#">查看更多 →</a>
+          <p class="inote-center"><img id="avatar" class="am-circle" src="" width="100" height="100"/></p>
+          <p class="inote-center" id="userName"></p>
+          <small id="aboutMe"></small>
         </div>
       </section>
       <section class="am-panel am-panel-default">

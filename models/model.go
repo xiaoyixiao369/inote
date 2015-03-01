@@ -32,9 +32,9 @@ func TableName(str string) string {
 type User struct {
     Id int64 `json:"id"`
     UserName string `orm:"size(50)" json:"userName"`
-    Password string `orm:"size(100)" json:"password"`
+    Password string `orm:"size(100)" json:"-"`
     Thumb    string `orm:"size(500)" json:"thumb"`
-    SiteWords string `orm:"size(1500) json:"siteWords"`
+    SiteWords string `orm:"size(1500)" json:"siteWords"`
     AboutMe string `orm:"size(2000)" json:"aboutMe"`
 }
 

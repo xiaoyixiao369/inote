@@ -18,7 +18,17 @@
 <script src="/static/meizi/js/jquery.min.js"></script>
 <script src="/static/meizi/js/amazeui.min.js"></script>
 <!--<![endif]-->
-
+<script>
+$(function(){
+        // 获取用户信息
+        $.get('/author', function(user){
+            $('#siteWords').text(user.siteWords);
+            $('#avatar').attr('src', user.thumb);
+            $('#userName').text(user.userName);
+            $('#aboutMe').text(user.aboutMe);
+        });
+});
+</script>
 </body>
 </html>
 {{end}}

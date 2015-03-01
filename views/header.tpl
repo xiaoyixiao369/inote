@@ -26,7 +26,7 @@
   <div class="am-collapse am-topbar-collapse" id="doc-topbar-collapse">
     <ul class="am-nav am-nav-pills am-topbar-nav">
       <li class="am-active am-animation-fade"><a href="/"><span class="am-icon-home am-icon-md"></span></a></li>
-      <li class="inote-words am-vertical-align-middle"><small>The light-weight note maybe you want...</small></li>
+      <li class="inote-words am-vertical-align-middle"><small id="siteWords"></small></li>
     </ul>
   </div>
 </header>
