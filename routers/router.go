@@ -8,13 +8,23 @@ import (
 
 func init() {
     beego.Router("/", &controllers.MainController{})
-    beego.Router("/login", &controllers.MainController{},"get:LoginPage")
+    beego.Router("/login", &controllers.MainController{}, "get:LoginPage")
+    beego.Router("/author", &controllers.UserControlelr{}, "get:Author")
     nsApi :=
         beego.NewNamespace("/i",
         beego.NSRouter("/posts/:id", &controllers.PostController{}, "get:One"),
         beego.NSRouter("/catetory/:id", &controllers.PostController{}, "get:Category"),
     )
     beego.AddNamespace(nsApi)
+
+    nsAdmin :=
+       beego.NewNamespace("admin",
+       beego.NSRouter("/main", &controllers.MainController{}, "get:Main"),
+       beego.NSRouter("/user", &controllers.MainController{}, "get:UserPage"),
+       beego.NSRouter("/category", &controllers.MainController{}, "get:CategoryPage"),
+       beego.NSRouter("/post", &controllers.MainController{}, "get:PostPage"),
+       )
+    beego.AddNamespace(nsAdmin)
 
     var checkUser = func(ctx *context.Context) {
         /*_, ok := ctx.Input.Session("uid").(int)

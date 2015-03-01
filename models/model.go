@@ -17,8 +17,8 @@ func init() {
         dbport = "3306"
     }
     dburl := dbuser + ":" + dbpassword + "@tcp(" + dbhost + ":" + dbport + ")/" + dbname + "?charset=utf8"
+    orm.RegisterModel(new(Category), new(Post), new(User))
     orm.RegisterDataBase("default", "mysql", dburl)
-    orm.RegisterModel(new(Category), new(Post))
     if beego.AppConfig.String("runmode") == "dev" {
         orm.Debug = true
     }
@@ -29,14 +29,24 @@ func TableName(str string) string {
     return fmt.Sprintf("%s%s", beego.AppConfig.String("dbprefix"), str)
 }
 
+type User struct {
+    Id int64 `json:"id"`
+    UserName string `orm:"size(50)" json:"userName"`
+    Password string `orm:"size(100)" json:"password"`
+    Thumb    string `orm:"size(500)" json:"thumb"`
+    SiteWords string `orm:"size(1500) json:"siteWords"`
+    AboutMe string `orm:"size(2000)" json:"aboutMe"`
+}
+
+func (u *User) Query() orm.QuerySeter {
+    return orm.NewOrm().QueryTable(u)
+}
+
 type Category struct {
     Id       int64     `json:"id"`
     Name     string    `orm:"size(100)" json:"name"`
 }
 
-func (c *Category) TableName() string {
-    return TableName("category")
-}
 
 func (c *Category) Insert() error {
     if _, err := orm.NewOrm().Insert(c); err != nil {
@@ -46,7 +56,6 @@ func (c *Category) Insert() error {
 }
 
 func (c *Category) Read(fields ...string) error {
-
     if err := orm.NewOrm().Read(c, fields...); err != nil {
         return err
     }
@@ -57,8 +66,6 @@ func (c *Category) Query() orm.QuerySeter {
     return orm.NewOrm().QueryTable(c)
 }
 
-
-
 type Post struct {
     Id int64 `json:"id"`
     Title string `json:"title"`
@@ -68,9 +75,6 @@ type Post struct {
     Category *Category `orm:"rel(fk)" json:"category"`
 }
 
-func (a *Post) TableName() string {
-    return TableName("post")
-}
 
 func (a *Post) Insert() error {
     if _, err := orm.NewOrm().Insert(a); err != nil {

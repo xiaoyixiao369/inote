@@ -20,6 +20,10 @@ type MainController struct {
 	BaseController
 }
 
+type UserControlelr struct {
+    BaseController
+}
+
 type CategoryController struct {
     BaseController
 }
@@ -30,7 +34,31 @@ type PostController struct {
 }
 
 func (this *MainController) LoginPage(){
-	this.TplNames = "login.html"
+	this.TplNames = "admin/login.html"
+}
+
+func (this *MainController) Main(){
+    this.TplNames = "admin/main.html"
+}
+
+func (this *MainController) UserPage(){
+    this.TplNames = "admin/user.html"
+}
+
+func (this *MainController) CategoryPage(){
+    this.TplNames = "admin/category.html"
+}
+
+func (this *MainController) PostPage(){
+    this.TplNames = "admin/post.html"
+}
+
+func (this *UserControlelr) Author(){
+    qsUser := new(models.User)
+    user := models.User{Id: int64(1)}
+    qsUser.Query().Filter("id", 1).One(&user)
+    this.Data["json"] = user
+    this.ServeJson()
 }
 
 func (this *MainController) Login(){
