@@ -57,7 +57,7 @@
                             <!-- Menu Footer-->
                             <li class="user-footer">
                                 <div class="pull-left">
-                                    <a href="#" class="btn btn-default btn-flat">重置密码</a>
+                                    <a href="#" class="btn btn-default btn-flat" data-toggle="modal" data-target="#resetPwd">重置密码</a>
                                 </div>
                                 <div class="pull-right">
                                     <a href="#" class="btn btn-default btn-flat">退出</a>
@@ -105,6 +105,29 @@
     <!-- /.content-wrapper -->
 </div>
 <!-- ./wrapper -->
+<!-- reset pwd -->
+<div class="modal fade" id="resetPwd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">重置密码</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <div>
+                        <label for="newPwd">新密码</label>
+                        <input type="password" class="form-control" id="newPwd"/>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" id="resetPwdBtn">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- jQuery 2.1.3 -->
 <script src="/static/plugins/jQuery/jQuery-2.1.3.min.js"></script>
@@ -119,6 +142,7 @@
 <script src="/static/js/jquery.form.min.js"></script>
 <script src="/static/js/json2-min.js"></script>
 <script src="/static/js/util.js"></script>
+<script src="/static/js/jquery.md5.js"></script>
 <script>
     $(function(){
         // 获取用户信息
@@ -130,8 +154,29 @@
         $('.menu-page').on('click', function(){
             $('#content').load($(this).attr('data-page'));
         });
-    });
 
+        // 重置密码
+        $('#resetPwdBtn').on('click', function(){
+           var newPwd = $('#newPwd').val();
+            if($.trim(newPwd) == ""){
+                alert("新密码不能为空");
+                return false;
+            }
+            $.ajax({
+                type: 'POST',
+                url: '/admin/resetPwd',
+                data: $.md5(newPwd),
+                contentType: 'applcation/json',
+                success: function(res){
+                    if(res.success){
+                        alert(res.msg);
+                        $('#newPwd').val('');
+                        $('#resetPwd').modal('hide');
+                    }
+                }
+            });
+        });
+    });
 </script>
 </body>
 </html>

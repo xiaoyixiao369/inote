@@ -8,6 +8,8 @@ import (
     "strings"
     "time"
     "encoding/json"
+    "crypto/md5"
+    "encoding/hex"
 )
 
 var IMG_EXT = []string{"jpg","jpeg","png","JPG","JPEG","PNG"}
@@ -126,6 +128,22 @@ func (this *MainController) UserUpdate(){
     this.Data["json"] = res
     this.ServeJson()
     return
+}
+
+func (this *MainController) ResetPwd(){
+    h := md5.New()
+    h.Write([]byte(string(this.Ctx.Input.RequestBody)))
+    newPwd := hex.EncodeToString(h.Sum(nil))
+    qsUser := new(models.User)
+    userDb := models.User{Id: 1}
+    qsUser.Query().Filter("id", int64(1)).One(&userDb)
+    userDb.Password = newPwd
+    userDb.Update()
+
+    res := &ResEntity{true, "修改成功", nil}
+    this.Data["json"] = res
+    this.ServeJson()
+    return;
 }
 
 func Categories() ([]*models.Category, error) {

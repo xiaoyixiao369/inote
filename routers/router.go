@@ -25,6 +25,7 @@ func init() {
        beego.NSRouter("/category", &controllers.MainController{}, "get:CategoryPage"),
        beego.NSRouter("/post", &controllers.MainController{}, "get:PostPage"),
        beego.NSRouter("/imgUp", &controllers.MainController{}, "post:ImgUp"),
+       beego.NSRouter("/resetPwd", &controllers.MainController{}, "post:ResetPwd"),
        )
     beego.AddNamespace(nsAdmin)
 
