@@ -13,8 +13,8 @@
             <img src="" alt="" id="userAvatar" class="img-rounded" style="width: 140px; height: 140px;"/>
         </div>
         <div class="form-group">
-            <label for="siteWords">网站介绍</label>
-            <input type="text" class="form-control" name="siteWords" id="siteWords">
+            <label for="siteTitle">网站名称</label>
+            <input type="text" class="form-control" name="siteTitle" id="siteTitle">
         </div>
         <div class="form-group">
             <label for="aboutMe">关于我</label>
@@ -33,7 +33,7 @@
             $('#author').text(user.userName);
             $('#userName').val(user.userName);
             $('#userAvatar').attr('src', user.thumb);
-            $('#siteWords').val(user.siteWords);
+            $('#siteTitle').val(user.siteTitle);
             $('#aboutMe').val(user.aboutMe);
         });
     }
@@ -47,14 +47,14 @@
         }
         userName = vlidField(userName);
         var thumb = $('#userAvatar').attr('src');
-        var siteWords = $('#siteWords').val();
+        var siteTitle = $('#siteTitle').val();
         var aboutMe = $('#aboutMe').val();
 
         var userInfo = {
             id: parseInt($('#id').val()),
             userName : userName,
             thumb: thumb,
-            siteWords: siteWords,
+            siteTitle: siteTitle,
             aboutMe: aboutMe
         };
         $.ajax({

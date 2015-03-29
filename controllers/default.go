@@ -104,11 +104,13 @@ func (this *MainController) Get() {
         this.Data["Categories"] = categories
     }
 
-    this.Layout = "index.html"
+    /*this.Layout = "main.html"
     this.TplNames = "posts.tpl"
     this.LayoutSections = make(map[string]string)
     this.LayoutSections["Header"] = "header.tpl"
-    this.LayoutSections["Sidebar"] = "sidebar.tpl"
+    this.LayoutSections["Sidebar"] = "sidebar.tpl"*/
+
+    this.TplNames = "main.html"
 }
 
 func (this *MainController) UserUpdate(){
@@ -188,7 +190,7 @@ func (this *PostController) Category(){
     if categories, err := Categories(); err == nil {
         this.Data["Categories"] = categories
     }
-    this.Layout = "index.html"
+    this.Layout = "main.html"
     this.TplNames = "posts.tpl"
     this.LayoutSections = make(map[string]string)
     this.LayoutSections["Header"] = "header.tpl"
