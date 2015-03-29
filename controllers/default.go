@@ -4,13 +4,20 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/igordonshaw/inote/models"
 	"strconv"
+    "fmt"
+    "strings"
+    "time"
+    "encoding/json"
 )
+
+var IMG_EXT = []string{"jpg","jpeg","png","JPG","JPEG","PNG"}
 
 type ResEntity struct {
 	Success bool `json:"success"`
 	Msg string `json:"msg"`
 	Data interface {} `json:"data"`
 }
+
 
 type BaseController struct {
 	beego.Controller
@@ -102,6 +109,25 @@ func (this *MainController) Get() {
     this.LayoutSections["Sidebar"] = "sidebar.tpl"
 }
 
+func (this *MainController) UserUpdate(){
+    var userFront models.User
+    err := json.Unmarshal(this.Ctx.Input.RequestBody, &userFront)
+    if err != nil {
+        fmt.Println("invalid user," + err.Error())
+    }
+
+    qsUser := new(models.User)
+    userDb := models.User{Id: int64(userFront.Id)}
+    qsUser.Query().Filter("id", int64(userFront.Id)).One(&userDb)
+
+    userFront.Password = userDb.Password
+    userFront.Update()
+    res := &ResEntity{true, "修改成功", nil}
+    this.Data["json"] = res
+    this.ServeJson()
+    return
+}
+
 func Categories() ([]*models.Category, error) {
     qsCategories := new(models.Category)
     var categories []*models.Category
@@ -149,4 +175,49 @@ func (this *PostController) Category(){
     this.LayoutSections = make(map[string]string)
     this.LayoutSections["Header"] = "header.tpl"
     this.LayoutSections["Sidebar"] = "sidebar.tpl"
+}
+
+func (this *MainController) ImgUp() {
+
+    _, fileHeder, err := this.GetFile("avatar")
+    if err != nil {
+        fmt.Println(err.Error())
+    }
+    fileName := fileHeder.Filename
+
+    if strings.Index(fileName, ".") <= 0 {
+        res := &ResEntity{false, "错误的图片文件!", ""}
+        this.Data["json"] = res
+        this.ServeJson()
+        return
+    }
+
+    strs := strings.Split(fileName, ".")
+    ext := strs[len(strs) - 1]
+
+    isExtPass := false
+
+    for _, allowedExt := range IMG_EXT {
+        if allowedExt == ext {
+            isExtPass = true
+            break;
+        }
+    }
+
+    if !isExtPass {
+        res := &ResEntity{false, "不支持的图片格式!", ""}
+        this.Data["json"] = res
+        this.ServeJson()
+        return
+    }
+
+    fileNewName := strconv.FormatInt(time.Now().Unix(), 10) + "." + ext
+    err = this.SaveToFile("avatar", beego.AppPath + "/" + beego.AppConfig.String("uploaddir") + fileNewName)
+    if err != nil {
+        fmt.Println(err.Error())
+    }
+
+    res := &ResEntity{true, "", "/" + beego.AppConfig.String("uploaddir") + fileNewName}
+    this.Data["json"] = res
+    this.ServeJson()
 }

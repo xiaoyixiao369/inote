@@ -42,6 +42,11 @@ func (u *User) Query() orm.QuerySeter {
     return orm.NewOrm().QueryTable(u)
 }
 
+func (u *User) Update(){
+    o := orm.NewOrm()
+    o.Update(u)
+}
+
 type Category struct {
     Id       int64     `json:"id"`
     Name     string    `orm:"size(100)" json:"name"`
