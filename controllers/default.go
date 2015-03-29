@@ -10,6 +10,7 @@ import (
     "encoding/json"
     "crypto/md5"
     "encoding/hex"
+    "github.com/astaxie/beego/orm"
 )
 
 var IMG_EXT = []string{"jpg","jpeg","png","JPG","JPEG","PNG"}
@@ -58,6 +59,7 @@ func (this *MainController) UserPage(){
 func (this *MainController) PostPage(){
     this.TplNames = "admin/post.html"
 }
+
 
 func (this *UserControlelr) Author(){
     qsUser := new(models.User)
@@ -125,6 +127,24 @@ func (this *MainController) ResetPwd(){
     return;
 }
 
+func (this *PostController) ListPosts(){
+    var posts []models.Post
+    qb, _ := orm.NewQueryBuilder("mysql")
+
+    qb.Select("id","title","tag","publish_at").
+    From("post").
+    OrderBy("publish_at").Desc().
+    Limit(10).Offset(0)
+    sql := qb.String()
+
+    o := orm.NewOrm()
+    o.Raw(sql).QueryRows(&posts)
+
+    this.Data["json"] = posts
+    this.ServeJson()
+    return
+}
+
 func (this *PostController) Posts(){
     posts := []models.Post{}
     qsPost := new(models.Post)
@@ -148,10 +168,12 @@ func (this *PostController) OnePost(){
 }
 
 func (this *MainController) ImgUp() {
-
     _, fileHeder, err := this.GetFile("avatar")
     if err != nil {
         fmt.Println(err.Error())
+        res := &ResEntity{false, "服务器错误",nil}
+        this.Data["json"] = res
+        this.ServeJson()
     }
     fileName := fileHeder.Filename
 
