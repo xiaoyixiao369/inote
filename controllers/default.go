@@ -54,9 +54,6 @@ func (this *MainController) UserPage(){
     this.TplNames = "admin/user.html"
 }
 
-func (this *MainController) CategoryPage(){
-    this.TplNames = "admin/category.html"
-}
 
 func (this *MainController) PostPage(){
     this.TplNames = "admin/post.html"
@@ -90,26 +87,6 @@ func (this *MainController) Login(){
 
 
 func (this *MainController) Get() {
-    posts := []models.Post{}
-    qsPost := new(models.Post)
-    qsPost.Query().OrderBy("-PublishAt").All(&posts)
-    if len(posts) == 0 {
-        flash := beego.NewFlash()
-        flash.Notice("还没有文章哦!")
-        flash.Store(&this.Controller)
-    }
-    this.Data["Posts"] = posts
-
-    if categories, err := Categories(); err == nil {
-        this.Data["Categories"] = categories
-    }
-
-    /*this.Layout = "main.html"
-    this.TplNames = "posts.tpl"
-    this.LayoutSections = make(map[string]string)
-    this.LayoutSections["Header"] = "header.tpl"
-    this.LayoutSections["Sidebar"] = "sidebar.tpl"*/
-
     this.TplNames = "main.html"
 }
 
@@ -148,16 +125,16 @@ func (this *MainController) ResetPwd(){
     return;
 }
 
-func Categories() ([]*models.Category, error) {
-    qsCategories := new(models.Category)
-    var categories []*models.Category
-    if _, err := qsCategories.Query().All(&categories); err != nil {
-        return nil ,err;
-    }
-    return categories, nil
+func (this *PostController) Posts(){
+    posts := []models.Post{}
+    qsPost := new(models.Post)
+    qsPost.Query().OrderBy("-PublishAt").All(&posts)
+    this.Data["json"] = posts
+    this.ServeJson()
+    return
 }
 
-func (this *PostController) One(){
+func (this *PostController) OnePost(){
 	id,err :=strconv.Atoi(this.Ctx.Input.Param(":id"))
 	if err != nil {
 		beego.Error(err)
@@ -165,36 +142,9 @@ func (this *PostController) One(){
 	qsPost := new(models.Post)
 	post := models.Post{Id: int64(id)}
 	qsPost.Query().RelatedSel().Filter("id", id).One(&post)
-	this.Data["Post"] = post
-    this.Layout = "postdetail.html"
-    this.TplNames = "post.tpl"
-    this.LayoutSections = make(map[string]string)
-    this.LayoutSections["Header"] = "header.tpl"
-}
-
-func (this *PostController) Category(){
-    id,err :=strconv.Atoi(this.Ctx.Input.Param(":id"))
-    if err != nil {
-        beego.Error(err)
-    }
-    posts := []models.Post{}
-    qsPost := new(models.Post)
-    qsPost.Query().Filter("Category__id", id).OrderBy("-PublishAt").RelatedSel().All(&posts)
-    if len(posts) == 0 {
-        flash := beego.NewFlash()
-        flash.Notice("该分类下还没有文章哦!")
-        flash.Store(&this.Controller)
-    }
-    this.Data["Posts"] = posts
-
-    if categories, err := Categories(); err == nil {
-        this.Data["Categories"] = categories
-    }
-    this.Layout = "main.html"
-    this.TplNames = "posts.tpl"
-    this.LayoutSections = make(map[string]string)
-    this.LayoutSections["Header"] = "header.tpl"
-    this.LayoutSections["Sidebar"] = "sidebar.tpl"
+	this.Data["json"] = post
+    this.ServeJson()
+    return
 }
 
 func (this *MainController) ImgUp() {

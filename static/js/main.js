@@ -6,4 +6,9 @@ $(function(){
         $('#author').text(user.userName);
         $('#aboutMe').text(user.aboutMe);
     });
+
+
+
+
+    $("[data-toggle='tooltip']").tooltip();
 });
