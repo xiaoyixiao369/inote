@@ -1,46 +1,5 @@
-@media only screen and (min-width: 1200px) {
-    .inote-g-fixed {
-        max-width: 1200px;
-    }
-}
-.am-with-topbar-fixed-top{
-    padding-top: 60px
-}
-.inote-main {
-    padding: 20px 0;
-}
-
-.inote-title {
-    margin: 10px 0 20px 0;
-}
-
-.inote-words{
-    line-height: 50px;
-    cursor: pointer;
-}
-
-.inote-pagination a {
-    font-size: 1.4rem;
-}
-
-.inote-footer {
-    margin: 0 auto;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.brand-i{
-    font-size: 1.8rem;
-}
-
-.brand-note{
-    font-size: 1.6rem;
-}
-
-.inote-notice{
-    text-align: center;
-}
-
-.inote-center{
-    text-align: center;
+.profile-img{
+    -webkit-box-shadow: 0 0 2px 3px rgba(255, 255, 255, 0.7), 0 0 30px 8px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 0 2px 3px rgba(255, 255, 255, 0.7), 0 0 30px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 2px 3px rgba(255, 255, 255, 0.7), 0 0 30px 8px rgba(0, 0, 0, 0.25);
 }
