@@ -566,7 +566,7 @@ $(function() {
 
         MIDI.loadPlugin({
             targetFormat: 'mp3',
-            soundfontUrl: '/js/',
+            soundfontUrl: '/static/plugins/bacheditor/js/',
             instrument: 'marimba',
             callback: function() {
                 MIDI.setVolume(0, 127);
@@ -651,7 +651,6 @@ $(function() {
                 goLive(self);
             }
         });
-
         //添加帮助
         var helpHtml = '<div class="editor-help">\
 <ul class="editor-help-tabs nav nav-tabs" id="editorHelpTab" role="tablist">\

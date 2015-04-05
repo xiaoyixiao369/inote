@@ -1,3 +1,15 @@
+#postListAnchor{
+    margin-top: -150px;
+}
+a{
+    cursor: pointer;
+}
+blockquote {
+    padding: 20px;
+    margin: 15px;
+    font-size: 1.2em;
+    border-left: 5px solid #ecf0f1;
+}
 .profile-img{
     -webkit-box-shadow: 0 0 2px 3px rgba(255, 255, 255, 0.7), 0 0 30px 8px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 0 2px 3px rgba(255, 255, 255, 0.7), 0 0 30px 8px rgba(0, 0, 0, 0.25);
@@ -6,4 +18,36 @@
 
 .modal-editor{
     width: 94%; /* respsonsive width */
+}
+
+.fix-height{
+    clear: both;
+    height: 20px;
+    display: block;
+}
+
+a.inote-btn {
+    display: inline-block;
+    position: relative;
+    margin: 1.2em 0 1em 0;
+    padding: 1em 3em;
+    border: none;
+    background-color: seagreen;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+.userInfo{
+    padding-bottom: 20px;
+}
+
+.floating-label-form-group{
+    border-bottom: none!important;
+}
+.floating-label-form-group input, .floating-label-form-group textarea{
+    font-size: 1em;
+}
+
+.jQuery-plainOverlay-progress {
+    border-top: 3px solid #0c7df2 !important;
 }

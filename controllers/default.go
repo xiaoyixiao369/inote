@@ -14,6 +14,7 @@ import (
 )
 
 var IMG_EXT = []string{"jpg","jpeg","png","JPG","JPEG","PNG"}
+var PAGE_SIZE = 10
 
 type ResEntity struct {
 	Success bool `json:"success"`
@@ -59,6 +60,9 @@ func (this *MainController) UserPage(){
 func (this *MainController) PostPage(){
     this.TplNames = "admin/post.html"
 }
+func (this *MainController) MessagePage(){
+    this.TplNames = "admin/message.html"
+}
 
 
 func (this *UserControlelr) Author(){
@@ -96,7 +100,7 @@ func (this *MainController) UserUpdate(){
     var userFront models.User
     err := json.Unmarshal(this.Ctx.Input.RequestBody, &userFront)
     if err != nil {
-        fmt.Println("invalid user," + err.Error())
+        beego.Error("invalid user," + err.Error())
     }
 
     qsUser := new(models.User)
@@ -128,13 +132,17 @@ func (this *MainController) ResetPwd(){
 }
 
 func (this *PostController) ListPosts(){
+    page,err :=strconv.Atoi(this.Ctx.Input.Param(":page"))
+    if err != nil {
+        beego.Error(err)
+    }
     var posts []models.Post
     qb, _ := orm.NewQueryBuilder("mysql")
 
     qb.Select("id","title","tag","publish_at").
     From("post").
     OrderBy("publish_at").Desc().
-    Limit(10).Offset(0)
+    Limit(PAGE_SIZE).Offset((page - 1) * PAGE_SIZE)
     sql := qb.String()
 
     o := orm.NewOrm()
@@ -154,15 +162,171 @@ func (this *PostController) Posts(){
     return
 }
 
+type FrontPost struct {
+    Id string `json:"id"`
+    Title string `json:"title"`
+    Tag string `json:"tag"`
+    Content string `json:"content"`
+}
+
+func (this *MainController) SavePost(){
+    res := &ResEntity{}
+    var frontPost FrontPost
+    err := json.Unmarshal(this.Ctx.Input.RequestBody, &frontPost)
+    if err != nil {
+        beego.Error("invalid post," + err.Error())
+        res.Success = false
+        res.Msg = "无效的文章"
+        this.Data["json"] = res
+        this.ServeJson()
+        return
+    }
+
+    post := &models.Post{
+        Title: frontPost.Title,
+        Tag: frontPost.Tag,
+        Content:frontPost.Content,
+    }
+
+
+    if "" == post.Title {
+        post.Title = "未命名"
+    }
+
+    if "" == post.Tag {
+        post.Tag = "默认标签"
+    }
+
+    if "" == frontPost.Id {
+        post.Insert()
+    } else {
+        postId, err := strconv.Atoi(frontPost.Id)
+        if err != nil {
+            beego.Error("invalid post id:", err.Error())
+        }
+        post.Id = int64(postId)
+        postDb := &models.Post{Id: post.Id}
+        postDb.Read()
+        post.PublishAt = time.Now()
+        post.Update()
+    }
+
+    res.Success = true
+    res.Msg = "保存文章成功"
+    this.Data["json"] = res
+    this.ServeJson()
+    return
+}
+
+func (this *MainController) DeletePost(){
+    res := &ResEntity{}
+    id,err :=strconv.Atoi(this.Ctx.Input.Param(":id"))
+    if err != nil {
+        beego.Error(err)
+    }
+    post := models.Post{Id: int64(id)}
+    err = post.Delete()
+    if err != nil {
+        beego.Error("delete post error:", err.Error())
+        res.Success = false
+        res.Msg = "删除文章失败"
+        this.Data["json"] = res
+        this.ServeJson()
+        return
+    }
+
+    res.Success = true
+    res.Msg = "删除文章成功"
+    this.Data["json"] = res
+    this.ServeJson()
+    return
+}
+
+type FrontMessage struct {
+    PostId string `json:"postId"`
+    GuestName string `json:"guestName"`
+    Content string `json:"content"`
+}
+
+func(this *PostController) SubmitMsg(){
+    res := &ResEntity{}
+    var frontMessage FrontMessage
+    err := json.Unmarshal(this.Ctx.Input.RequestBody, &frontMessage)
+    if err != nil {
+        beego.Error("invalid message," + err.Error())
+        res.Success = false
+        res.Msg = "无效的留言"
+        this.Data["json"] = res
+        this.ServeJson()
+        return
+    }
+
+    if "" == frontMessage.GuestName {
+        frontMessage.GuestName = "佚名"
+    }
+    postId,err :=strconv.Atoi(frontMessage.PostId)
+    if err != nil {
+        beego.Error(err)
+    }
+    message := &models.Message{
+        GuestName: frontMessage.GuestName,
+        Content: frontMessage.Content,
+        PostId: int64(postId),
+    }
+
+    err = message.Insert()
+    if err != nil {
+        res.Success = false
+        res.Msg = "添加留言失败"
+        this.Data["json"] = res
+        this.ServeJson()
+        return
+    }
+    res.Success = true
+    res.Msg = "添加留言成功"
+    this.Data["json"] = res
+    this.ServeJson()
+    return
+
+}
+
+type ResPost struct {
+    Post *models.Post `json:"post"`
+    Messages *[]models.Message `json:"messages"`
+}
+
 func (this *PostController) OnePost(){
+    res := &ResEntity{}
 	id,err :=strconv.Atoi(this.Ctx.Input.Param(":id"))
 	if err != nil {
 		beego.Error(err)
 	}
 	qsPost := new(models.Post)
 	post := models.Post{Id: int64(id)}
-	qsPost.Query().RelatedSel().Filter("id", id).One(&post)
-	this.Data["json"] = post
+    if id == 0 {
+        // last post
+        qsPost.Query().OrderBy("-PublishAt").Limit(1).One(&post)
+    } else {
+        qsPost.Query().RelatedSel().Filter("id", id).One(&post)
+    }
+
+    /*if post == nil {
+        res.Success = false
+        res.Msg = "还没有文章"
+        this.Data["json"] = res
+        this.ServeJson()
+        return
+    }*/
+    messages := []models.Message{}
+    qsMessages := new(models.Message)
+    qsMessages.Query().Filter("PostId", post.Id).OrderBy("-CreatedAt").All(&messages)
+    resPost := &ResPost{
+        Post: &post,
+        Messages: &messages,
+    }
+    res.Success = true
+    res.Data = resPost
+	this.Data["json"] = res
     this.ServeJson()
     return
 }

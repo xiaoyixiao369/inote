@@ -13,8 +13,9 @@ func init() {
     nsApi :=
         beego.NewNamespace("/i",
         beego.NSRouter("/posts", &controllers.PostController{}, "get:Posts"),
-        beego.NSRouter("/posts/list", &controllers.PostController{}, "get:ListPosts"),
+        beego.NSRouter("/posts/list/:page", &controllers.PostController{}, "get:ListPosts"),
         beego.NSRouter("/posts/:id", &controllers.PostController{}, "get:OnePost"),
+        beego.NSRouter("/submitMsg", &controllers.PostController{}, "post:SubmitMsg"),
     )
     beego.AddNamespace(nsApi)
 
@@ -24,6 +25,9 @@ func init() {
        beego.NSRouter("/user", &controllers.MainController{}, "get:UserPage"),
        beego.NSRouter("/userUpdate", &controllers.MainController{}, "post:UserUpdate"),
        beego.NSRouter("/post", &controllers.MainController{}, "get:PostPage"),
+       beego.NSRouter("/post/save", &controllers.MainController{}, "post:SavePost"),
+       beego.NSRouter("/post/delete/:id", &controllers.MainController{}, "delete:DeletePost"),
+       beego.NSRouter("/message", &controllers.MainController{}, "get:MessagePage"),
        beego.NSRouter("/imgUp", &controllers.MainController{}, "post:ImgUp"),
        beego.NSRouter("/resetPwd", &controllers.MainController{}, "post:ResetPwd"),
        )

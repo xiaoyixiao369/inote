@@ -15,11 +15,11 @@
     <link href="/static/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css"/>
     <!-- AdminLTE Skins. Choose a skin from the css/skins 
          folder instead of downloading all of them to reduce the load. -->
-    <link href="/static/dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="/static/dist/css/skins/_all-skins.min.css"/>
     <link rel="stylesheet" href="/static/plugins/bacheditor/css/pygment_trac.css">
     <link rel="stylesheet" href="/static/plugins/bacheditor/css/editor.css">
-    <link rel="stylesheet" href="http://cdn.bootcss.com/codemirror/4.10.0/codemirror.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css">
+    <link rel="stylesheet" href="/static/plugins/codemirror/css/codemirror.min.css">
+    <link rel="stylesheet" href="/static/plugins/highlight/css/highlight.css">
     <link rel="stylesheet" href="/static/css/inote.css"/>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -84,7 +84,8 @@
             <ul class="sidebar-menu">
                 <li class="header">功能管理</li>
                 <li><a href="#" class="menu-page" data-page="/admin/user"><i class="glyphicon glyphicon-user text-danger"></i>用户信息管理</a></li>
-                <li><a href="#" class="menu-page"  data-page="/admin/post.html"><i class="glyphicon glyphicon-file text-info"></i>文章管理</a></li>
+                <li><a href="#" class="menu-page"  data-page="/admin/post"><i class="glyphicon glyphicon-file text-info"></i>文章管理</a></li>
+                <li><a href="#" class="menu-page"  data-page="/admin/message"><i class="glyphicon glyphicon-inbox text-info"></i>留言管理</a></li>
             </ul>
         </section>
         <!-- /.sidebar -->
@@ -142,15 +143,14 @@
 <script src="/static/js/jquery.form.min.js"></script>
 <script src="/static/js/json2-min.js"></script>
 <script src="/static/js/jquery.md5.js"></script>
-<script src="http://cdn.bootcss.com/highlight.js/8.4/highlight.min.js"></script>
-<script src="http://cdn.bootcss.com/marked/0.3.2/marked.min.js"></script>
-<script src="http://cdn.bootcss.com/codemirror/4.10.0/codemirror.min.js"></script>
-<script src="http://cdn.bootcss.com/zeroclipboard/2.2.0/ZeroClipboard.min.js"></script>
+<!--<script src="/static/plugins/highlight/js/highlight.min.js"></script>-->
+<script src="/static/js/marked.min.js"></script>
+<script src="/static/plugins/codemirror/js/codemirror.min.js"></script>
+<script src="/static/js/ZeroClipboard.min.js"></script>
 <script src="/static/plugins/bacheditor/js/highlight.js"></script>
 <script src="/static/plugins/bacheditor/js/fileupload.js"></script>
 <script src="/static/plugins/bacheditor/js/modal.js"></script>
 <script src="/static/plugins/bacheditor/js/MIDI.js"></script>
-<!--<script src="http://editor.integ.me/BachEditor/js/marimba-mp3.js"></script>-->
 <script src="/static/plugins/bacheditor/js/bacheditor.js"></script>
 <script src="/static/dist/js/app.min.js"></script>
 <script src="/static/js/util.js"></script>
@@ -162,8 +162,9 @@
             $('#author').text(user.userName);
         });
         // 加载菜单页面
-        $('.menu-page').on('click', function(){
+        $('.sidebar-menu .menu-page').on('click', function(){
             $('#content').load($(this).attr('data-page'));
+            $(this).parent().addClass('active').siblings().removeClass('active');
         });
 
         // 重置密码

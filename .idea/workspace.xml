@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ffb5d4c-f5ee-488e-abcb-bec306f95716" name="Default" comment="" />
+    <list default="true" id="3ffb5d4c-f5ee-488e-abcb-bec306f95716" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/ZeroClipboard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/ZeroClipboard.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/codemirror/css/codemirror.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/codemirror/js/codemirror.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/highlight/css/highlight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/highlight/js/highlight.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/hover-min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/painlayer/js/jquery.plainoverlay.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/silver_track/plugins/jquery.silver_track.bullet_navigator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/silver_track/plugins/jquery.silver_track.circular_navigator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/silver_track/plugins/jquery.silver_track.css3_animation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/silver_track/js/jquery.silver_track.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/silver_track/plugins/jquery.silver_track.navigator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/silver_track/plugins/jquery.silver_track.remote_content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/silver_track/plugins/jquery.silver_track.responsive_hub_connector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.smoothState.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/marked.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/message.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/silver_track/plugins/modernizr.mediaqueries.transforms3d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/responsive-hub.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/silver_track/css/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/freelancer/js/contact_me.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inote" afterPath="$PROJECT_DIR$/inote" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/js/MIDI.js" afterPath="$PROJECT_DIR$/static/plugins/bacheditor/js/MIDI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js" afterPath="$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/default.go" afterPath="$PROJECT_DIR$/controllers/default.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/freelancer/css/freelancer.css" afterPath="$PROJECT_DIR$/static/freelancer/css/freelancer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/freelancer/js/freelancer.js" afterPath="$PROJECT_DIR$/static/freelancer/js/freelancer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/inote.css" afterPath="$PROJECT_DIR$/static/css/inote.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main.html" afterPath="$PROJECT_DIR$/views/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/main.html" afterPath="$PROJECT_DIR$/views/admin/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/main.js" afterPath="$PROJECT_DIR$/static/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/model.go" afterPath="$PROJECT_DIR$/models/model.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/post.html" afterPath="$PROJECT_DIR$/views/admin/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routers/router.go" afterPath="$PROJECT_DIR$/routers/router.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/user.html" afterPath="$PROJECT_DIR$/views/admin/user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/util.js" afterPath="$PROJECT_DIR$/static/js/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="inote.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -28,43 +68,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/default.go">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/admin/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="171" column="19" selection-start-line="171" selection-start-column="19" selection-end-line="171" selection-end-column="19" />
+            <state vertical-scroll-proportion="-3.6923077">
+              <caret line="162" column="11" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/admin/user.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.4615383">
+              <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
               <folding>
-                <element signature="e#21#235#0" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/model.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/main.html">
+        <entry file="file://$PROJECT_DIR$/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routers/router.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+            <state vertical-scroll-proportion="-3.1923077">
+              <caret line="91" column="177" selection-start-line="91" selection-start-column="177" selection-end-line="91" selection-end-column="177" />
               <folding />
             </state>
           </provider>
@@ -74,72 +104,66 @@
         <entry file="file://$PROJECT_DIR$/static/css/inote.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bacheditor.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1559" column="32" selection-start-line="1559" selection-start-column="32" selection-end-line="1559" selection-end-column="32" />
-              <folding>
-                <marker date="1427648380000" expanded="true" signature="53218:53387" placeholder="..." />
-                <marker date="1427648380000" expanded="true" signature="53414:54161" placeholder="..." />
-                <marker date="1427648380000" expanded="true" signature="53492:53982" placeholder="..." />
-                <marker date="1427648380000" expanded="true" signature="53609:53970" placeholder="..." />
-                <marker date="1427648380000" expanded="true" signature="53730:53873" placeholder="..." />
-                <marker date="1427648380000" expanded="true" signature="54035:54153" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/user.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fileupload.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/js/fileupload.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="495" column="0" selection-start-line="495" selection-start-column="0" selection-end-line="495" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../astaxie/beego/context/input.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/admin/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20547946">
-              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+            <state vertical-scroll-proportion="1.5384616">
+              <caret line="93" column="69" selection-start-line="93" selection-start-column="69" selection-end-line="93" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.74626863">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/default.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/model.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routers/router.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -163,22 +187,34 @@
         <option value="$PROJECT_DIR$/views/sidebar.tpl" />
         <option value="$PROJECT_DIR$/static/js/jquery.html5uploader.js" />
         <option value="$PROJECT_DIR$/static/js/jquery.form.min.js" />
-        <option value="$PROJECT_DIR$/static/js/util.js" />
         <option value="$PROJECT_DIR$/static/freelancer/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/static/freelancer/js/jquery.easing.min.js" />
-        <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/conf/app.conf" />
-        <option value="$PROJECT_DIR$/models/model.go" />
         <option value="$PROJECT_DIR$/views/admin/addPost.html" />
-        <option value="$PROJECT_DIR$/routers/router.go" />
-        <option value="$PROJECT_DIR$/views/main.html" />
         <option value="$PROJECT_DIR$/static/plugins/bacheditor/css/editor.css" />
+        <option value="$PROJECT_DIR$/static/plugins/silver_track/js/jquery.silver_track.js" />
+        <option value="$PROJECT_DIR$/static/freelancer/css/freelancer.css" />
+        <option value="$PROJECT_DIR$/static/freelancer/js/contact_me.js" />
+        <option value="$PROJECT_DIR$/static/plugins/codemirror/css/codemirror.min.css" />
+        <option value="$PROJECT_DIR$/static/plugins/highlight/css/highlight.css" />
+        <option value="$PROJECT_DIR$/static/plugins/highlight/js/highlight.min.js" />
+        <option value="$PROJECT_DIR$/static/js/marked.min.js" />
+        <option value="$PROJECT_DIR$/static/plugins/codemirror/js/codemirror.min.js" />
+        <option value="$PROJECT_DIR$/static/js/ZeroClipboard.min.js" />
+        <option value="$PROJECT_DIR$/views/admin/message.html" />
+        <option value="$PROJECT_DIR$/static/js/util.js" />
+        <option value="$PROJECT_DIR$/routers/router.go" />
         <option value="$PROJECT_DIR$/controllers/default.go" />
-        <option value="$PROJECT_DIR$/views/admin/user.html" />
+        <option value="$PROJECT_DIR$/static/plugins/bacheditor/js/MIDI.js" />
         <option value="$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js" />
-        <option value="$PROJECT_DIR$/views/admin/main.html" />
-        <option value="$PROJECT_DIR$/static/css/inote.css" />
         <option value="$PROJECT_DIR$/views/admin/post.html" />
+        <option value="$PROJECT_DIR$/static/freelancer/js/freelancer.js" />
+        <option value="$PROJECT_DIR$/models/model.go" />
+        <option value="$PROJECT_DIR$/views/admin/user.html" />
+        <option value="$PROJECT_DIR$/static/css/inote.css" />
+        <option value="$PROJECT_DIR$/views/admin/main.html" />
+        <option value="$PROJECT_DIR$/views/main.html" />
+        <option value="$PROJECT_DIR$/static/js/main.js" />
       </list>
     </option>
   </component>
@@ -204,7 +240,7 @@
     <option name="width" value="1280" />
     <option name="height" value="730" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -220,10 +256,10 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="true" />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -232,6 +268,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -336,7 +373,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bacheditor" />
+              <option name="myItemId" value="silver_track" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="silver_track" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -362,11 +425,141 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bacheditor" />
+              <option name="myItemId" value="silver_track" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="painlayer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highlight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="highlight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codemirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codemirror" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,10 +582,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bacheditor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -442,7 +631,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="freelancer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -504,7 +751,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -533,16 +779,18 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="find &#9;ACTION&#9;FindInPath" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/js" />
-      <recent name="$PROJECT_DIR$/static/plugins/bacheditor" />
-      <recent name="$PROJECT_DIR$/static/freelancer" />
-      <recent name="$PROJECT_DIR$/views" />
-      <recent name="$PROJECT_DIR$/static/img" />
+      <recent name="$PROJECT_DIR$/static/plugins/painlayer" />
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/static/plugins/silver_track/css" />
+      <recent name="$PROJECT_DIR$/static/plugins/silver_track/plugins" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/plugins/painlayer/js" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static/uploads" />
       <recent name="$PROJECT_DIR$/static/img" />
@@ -791,16 +1039,19 @@
       <workItem from="1426075528050" duration="1535000" />
       <workItem from="1427285533291" duration="93000" />
       <workItem from="1427590866066" duration="52087000" />
-      <workItem from="1427651407354" duration="18000" />
+      <workItem from="1427651407354" duration="198000" />
+      <workItem from="1427889566076" duration="4687000" />
+      <workItem from="1428194712874" duration="51658000" />
+      <workItem from="1428252600207" duration="9407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120346000" />
+    <option name="totallyTimeSpent" value="186278000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="730" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1280" height="730" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -809,25 +1060,25 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24555735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29483038" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39906102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39906102" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -848,191 +1099,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/inote.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1559" column="32" selection-start-line="1559" selection-start-column="32" selection-end-line="1559" selection-end-column="32" />
-          <folding>
-            <marker date="1427648380000" expanded="true" signature="53218:53387" placeholder="..." />
-            <marker date="1427648380000" expanded="true" signature="53414:54161" placeholder="..." />
-            <marker date="1427648380000" expanded="true" signature="53492:53982" placeholder="..." />
-            <marker date="1427648380000" expanded="true" signature="53609:53970" placeholder="..." />
-            <marker date="1427648380000" expanded="true" signature="53730:53873" placeholder="..." />
-            <marker date="1427648380000" expanded="true" signature="54035:54153" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/js/fileupload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="495" column="0" selection-start-line="495" selection-start-column="0" selection-end-line="495" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../astaxie/beego/context/input.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/default.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="e#21#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/app.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/default.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#21#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/app.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="126" column="18" selection-start-line="126" selection-start-column="18" selection-end-line="126" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery-1.11.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../astaxie/beego/orm/types.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/plugins/flot/excanvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32840723">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/AdminLTE-2.0.2/pages/examples/lockscreen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5384616">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/dist/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/html5shiv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8866995">
-          <caret line="7" column="176" selection-start-line="7" selection-start-column="176" selection-end-line="7" selection-end-column="176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/respond.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93431854">
-          <caret line="5" column="3180" selection-start-line="5" selection-start-column="3180" selection-end-line="5" selection-end-column="3180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="587" column="16" selection-start-line="587" selection-start-column="16" selection-end-line="587" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/strings/strings.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -1044,21 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="5.221675">
           <caret line="10" column="14900" selection-start-line="10" selection-start-column="14900" selection-end-line="10" selection-end-column="14900" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../astaxie/beego/controller.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46469623">
-          <caret line="523" column="5" selection-start-line="523" selection-start-column="5" selection-end-line="523" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,7 +1138,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,25 +1148,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/freelancer/js/jquery.easing.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93431854">
-          <caret line="43" column="3601" selection-start-line="43" selection-start-column="3601" selection-end-line="43" selection-end-column="3601" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/phrase.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1141,32 +1177,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/js/MIDI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3676976">
-          <caret line="0" column="4802" selection-start-line="0" selection-start-column="4802" selection-end-line="0" selection-end-column="4802" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06861063">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/css/editor.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/model.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,17 +1192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/js/fileupload.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1197,64 +1200,306 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/default.go">
+    <entry file="file://$PROJECT_DIR$/static/plugins/silver_track/plugins/modernizr.mediaqueries.transforms3d.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="171" column="19" selection-start-line="171" selection-start-column="19" selection-end-line="171" selection-end-column="19" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/silver_track/js/jquery.silver_track.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.67487687">
+          <caret line="400" column="4" selection-start-line="400" selection-start-column="4" selection-end-line="400" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/freelancer/js/jquery.easing.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2331691">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/responsive-hub.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/silver_track/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.591133">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/silver_track/plugins/jquery.silver_track.navigator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6896552">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/hover-min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.smoothState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/painlayer/js/jquery.plainoverlay.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/freelancer/css/freelancer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="271" column="20" selection-start-line="271" selection-start-column="16" selection-end-line="271" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../astaxie/beego/controller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.136289">
+          <caret line="366" column="47" selection-start-line="366" selection-start-column="47" selection-end-line="366" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/morris/morris.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.91461414">
+          <caret line="168" column="6" selection-start-line="168" selection-start-column="6" selection-end-line="168" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/codemirror/css/codemirror.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93431854">
+          <caret line="0" column="4834" selection-start-line="0" selection-start-column="4834" selection-end-line="0" selection-end-column="4834" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/highlight/css/highlight.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85385877">
+          <caret line="0" column="2310" selection-start-line="0" selection-start-column="2310" selection-end-line="0" selection-end-column="2310" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/highlight/js/highlight.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93431854">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/marked.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.93431854">
+          <caret line="5" column="18907" selection-start-line="5" selection-start-column="18907" selection-end-line="5" selection-end-column="18907" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/codemirror/js/codemirror.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1642036">
+          <caret line="4" column="9715" selection-start-line="4" selection-start-column="9715" selection-end-line="4" selection-end-column="9715" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ZeroClipboard.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3940886">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding>
-            <element signature="e#21#235#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/ZeroClipboard.min.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/js/marimba-mp3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../astaxie/beego/orm/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/time/format.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7356322">
+          <caret line="759" column="14" selection-start-line="759" selection-start-column="8" selection-end-line="759" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/time/time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39901477">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/js/MIDI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06732348">
+          <caret line="0" column="6875" selection-start-line="0" selection-start-column="6875" selection-end-line="0" selection-end-column="6875" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3432837">
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding>
+            <marker date="1428253173000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428253173000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428253173000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428253173000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428253173000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1428253173000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/freelancer/js/freelancer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routers/router.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js">
+    <entry file="file://$PROJECT_DIR$/views/admin/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1559" column="32" selection-start-line="1559" selection-start-column="32" selection-end-line="1559" selection-end-column="32" />
-          <folding>
-            <marker date="1427648380000" expanded="true" signature="53218:53387" placeholder="..." />
-            <marker date="1427648380000" expanded="true" signature="53414:54161" placeholder="..." />
-            <marker date="1427648380000" expanded="true" signature="53492:53982" placeholder="..." />
-            <marker date="1427648380000" expanded="true" signature="53609:53970" placeholder="..." />
-            <marker date="1427648380000" expanded="true" signature="53730:53873" placeholder="..." />
-            <marker date="1427648380000" expanded="true" signature="54035:54153" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        <state vertical-scroll-proportion="1.5384616">
+          <caret line="93" column="69" selection-start-line="93" selection-start-column="69" selection-end-line="93" selection-end-column="69" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/model.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/default.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/inote.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/post.html">
+    <entry file="file://$PROJECT_DIR$/views/admin/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20547946">
-          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+        <state vertical-scroll-proportion="-3.6923077">
+          <caret line="162" column="11" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4615383">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1923077">
+          <caret line="91" column="177" selection-start-line="91" selection-start-column="177" selection-end-line="91" selection-end-column="177" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74626863">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
       </provider>
