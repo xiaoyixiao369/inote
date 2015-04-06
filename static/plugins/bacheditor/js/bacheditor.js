@@ -474,9 +474,10 @@ $(function() {
 
         // 当toolbar看不到时，position:fixed toolbar的位置
         $(window).scroll(function() {
-            if(!self.isBig) {
-                var _width = $('.editor').width();      //编辑器宽度
-                var _top = $('.editor').offset().top;   //编辑器距离页面顶部的高度
+            var $editor = $('.editor'); // 页面有editor才监听滚动事件 by gordon
+            if(!self.isBig && $editor.offset()) {
+                var _width = $editor.width();      //编辑器宽度
+                var _top = $editor.offset().top;   //编辑器距离页面顶部的高度
                 var _scrollTop = $(this).scrollTop();   //当前滚动条的位置
                 var _editorTop = 62 + $('.editor-help .tab-content').height();  //编辑器应该距离页面顶部
                 if(_scrollTop >= _top) {

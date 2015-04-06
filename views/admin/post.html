@@ -77,7 +77,7 @@
                 var rows = [];
                 if (posts && posts.length > 0) {
                     for (var i = 0; i < posts.length; i++) {
-                        rows.push('<tr><td>' + posts[i].title + '</td><td>' + posts[i].tag + '</td><td>' + $.dateFormat(posts[i].publishAt) + '</td><td><button class="btn btn-success post-update" data-toggle="modal" data-target="#postModal"><input type="hidden" name="" value="' + posts[i].id + '" /><span class="glyphicon glyphicon-pencil"></span>&nbsp;修改</button> <button href="javascript:void(0);" class="btn btn-danger post-delete"><input type="hidden" name="" value="' + posts[i].id + '" /><span class="glyphicon glyphicon-minus"></span>&nbsp;删除</button></td></tr>')
+                        rows.push('<tr><td>' + vlidField(posts[i].title) + '</td><td>' + vlidField(posts[i].tag) + '</td><td>' + $.dateFormat(posts[i].publishAt) + '</td><td><button class="btn btn-success post-update" data-toggle="modal" data-target="#postModal"><input type="hidden" name="" value="' + posts[i].id + '" /><span class="glyphicon glyphicon-pencil"></span>&nbsp;修改</button> <button href="javascript:void(0);" class="btn btn-danger post-delete"><input type="hidden" name="" value="' + posts[i].id + '" /><span class="glyphicon glyphicon-minus"></span>&nbsp;删除</button></td></tr>')
                     }
                     $('#postList').find('tbody').append(rows);
 
@@ -120,8 +120,8 @@
                     if (res.success) {
                         var post = res.data.post;
                         $('#postId').val(postId);
-                        $('#postTitle').val(post.title);
-                        $('#postTag').val(post.tag);
+                        $('#postTitle').val(vlidField(post.title));
+                        $('#postTag').val(vlidField(post.tag));
                         postEditor.setVal(post.content);
                     } else {
                         alert(res.msg);
@@ -140,8 +140,8 @@
         $('#savePost').on('click', function () {
             var post = {
                 id: $('#postId').val(),
-                title: $('#postTitle').val(),
-                tag: $('#postTag').val(),
+                title: vlidField($('#postTitle').val()),
+                tag: vlidField($('#postTag').val()),
                 content: postEditor.getVal()
             };
             $.ajax({

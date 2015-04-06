@@ -10,6 +10,12 @@ $.extend({
         var day = data.getDate();
         var hours = data.getHours();
         var minutes = data.getMinutes();
+        if(month < 10){
+            month = '0' + month;
+        }
+        if(day < 10){
+            day = '0' + day;
+        }
         if(hours < 10) {
             hours = '0' + hours;
         }

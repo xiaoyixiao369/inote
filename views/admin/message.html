@@ -1,1 +1,65 @@
-fafafaf
+<div id="messageList">
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+            <th>游客名称</th>
+            <th>内容</th>
+            <th>所属文章</th>
+            <th>发表时间</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <div class="form-group">
+        <button id="loadNextPageBtn" class="btn btn-primary form-control"><input type="hidden" name="" id="pageIndex" value="1"/><span id="loadTip">加载更多</span></button>
+    </div>
+
+    <span class="fix-height"></span>
+</div>
+
+<script>
+    $(function(){
+        var fetchMessages = function (page) {
+            $.get('/admin/message/list/'+page, function (messages) {
+                var rows = [];
+                if (messages && messages.length > 0) {
+                    for (var i = 0; i < messages.length; i++) {
+                        rows.push('<tr><td>' + vlidField(messages[i].guestName) + '</td><td>' + vlidField(messages[i].content) + '</td><td>'+vlidField(messages[i].postTitle)+'</td><td>' + $.dateFormat(messages[i].createdAt) + '</td><td><button href="javascript:void(0);" class="btn btn-danger message-delete"><input type="hidden" name="" value="' + messages[i].id + '" /><span class="glyphicon glyphicon-minus"></span>&nbsp;删除</button></td></tr>')
+                    }
+                    $('#messageList').find('tbody').append(rows);
+
+                    $('.message-delete').on('click', function () {
+                        var $this = $(this);
+                        var messageId = $this.find('input[type="hidden"]:eq(0)').val();
+                        $.ajax({
+                            url: '/admin/message/delete/' + messageId,
+                            contentType: 'applcation/json',
+                            type: 'DELETE',
+                            cache: false,
+                            success: function (res) {
+                                if (res.success) {
+                                    $this.parent().parent().remove();
+                                } else {
+                                    alert(res.msg);
+                                }
+                            }
+                        });
+                    });
+                } else {
+                    $('#loadTip').text('已全部加载完毕');
+                }
+            });
+        };
+
+        $('#loadNextPageBtn').on('click', function(){
+            var $pageIndex = $('#pageIndex');
+            var nextPage = parseInt($pageIndex.val()) + 1;
+            $pageIndex.val(nextPage);
+            fetchMessages(nextPage);
+        });
+        fetchMessages(parseInt($('#pageIndex').val()));
+    });
+</script>

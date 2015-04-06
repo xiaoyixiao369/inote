@@ -28,6 +28,8 @@ func init() {
        beego.NSRouter("/post/save", &controllers.MainController{}, "post:SavePost"),
        beego.NSRouter("/post/delete/:id", &controllers.MainController{}, "delete:DeletePost"),
        beego.NSRouter("/message", &controllers.MainController{}, "get:MessagePage"),
+       beego.NSRouter("/message/list/:page", &controllers.MainController{}, "get:ListMessage"),
+       beego.NSRouter("/message/delete/:id", &controllers.MainController{}, "delete:DeleteMessage"),
        beego.NSRouter("/imgUp", &controllers.MainController{}, "post:ImgUp"),
        beego.NSRouter("/resetPwd", &controllers.MainController{}, "post:ResetPwd"),
        )

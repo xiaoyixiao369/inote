@@ -176,7 +176,7 @@ func (this *MainController) SavePost(){
     if err != nil {
         beego.Error("invalid post," + err.Error())
         res.Success = false
-        res.Msg = "无效的文章"
+        res.Msg = "无效的内容"
         this.Data["json"] = res
         this.ServeJson()
         return
@@ -212,7 +212,7 @@ func (this *MainController) SavePost(){
     }
 
     res.Success = true
-    res.Msg = "保存文章成功"
+    res.Msg = "保存成功"
     this.Data["json"] = res
     this.ServeJson()
     return
@@ -229,14 +229,14 @@ func (this *MainController) DeletePost(){
     if err != nil {
         beego.Error("delete post error:", err.Error())
         res.Success = false
-        res.Msg = "删除文章失败"
+        res.Msg = "删除失败"
         this.Data["json"] = res
         this.ServeJson()
         return
     }
 
     res.Success = true
-    res.Msg = "删除文章成功"
+    res.Msg = "删除成功"
     this.Data["json"] = res
     this.ServeJson()
     return
@@ -244,6 +244,7 @@ func (this *MainController) DeletePost(){
 
 type FrontMessage struct {
     PostId string `json:"postId"`
+    PostTitle string `json:"postTitle"`
     GuestName string `json:"guestName"`
     Content string `json:"content"`
 }
@@ -272,6 +273,7 @@ func(this *PostController) SubmitMsg(){
         GuestName: frontMessage.GuestName,
         Content: frontMessage.Content,
         PostId: int64(postId),
+        PostTitle: frontMessage.PostTitle,
     }
 
     err = message.Insert()
@@ -312,7 +314,7 @@ func (this *PostController) OnePost(){
 
     /*if post == nil {
         res.Success = false
-        res.Msg = "还没有文章"
+        res.Msg = "还没有内容"
         this.Data["json"] = res
         this.ServeJson()
         return
@@ -327,6 +329,52 @@ func (this *PostController) OnePost(){
     res.Success = true
     res.Data = resPost
 	this.Data["json"] = res
+    this.ServeJson()
+    return
+}
+
+func (this *MainController) ListMessage(){
+    page,err :=strconv.Atoi(this.Ctx.Input.Param(":page"))
+    if err != nil {
+        beego.Error(err)
+    }
+    var messages []models.Message
+    qb, _ := orm.NewQueryBuilder("mysql")
+
+    qb.Select("id","guest_name","content","post_title", "created_at").
+    From("message").
+    OrderBy("created_at").Desc().
+    Limit(PAGE_SIZE + 10).Offset((page - 1) * PAGE_SIZE)
+    sql := qb.String()
+
+    o := orm.NewOrm()
+    o.Raw(sql).QueryRows(&messages)
+
+    this.Data["json"] = messages
+    this.ServeJson()
+    return
+}
+
+func (this *MainController) DeleteMessage(){
+    res := &ResEntity{}
+    id,err :=strconv.Atoi(this.Ctx.Input.Param(":id"))
+    if err != nil {
+        beego.Error(err)
+    }
+    message := models.Message{Id: int64(id)}
+    err = message.Delete()
+    if err != nil {
+        beego.Error("delete post error:", err.Error())
+        res.Success = false
+        res.Msg = "删除失败"
+        this.Data["json"] = res
+        this.ServeJson()
+        return
+    }
+
+    res.Success = true
+    res.Msg = "删除成功"
+    this.Data["json"] = res
     this.ServeJson()
     return
 }

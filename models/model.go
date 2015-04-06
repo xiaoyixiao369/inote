@@ -85,11 +85,19 @@ type Message struct {
     GuestName string `json:"guestName"`
     Content string `orm:"type(text)" json:"content"`
     PostId int64 `json:"postId"`
+    PostTitle string `json:"postTitle"`
     CreatedAt time.Time `orm:"auto_now_add;type(datetime)" json:"createdAt"`
 }
 
 func (this *Message) Insert() error {
     if _, err := orm.NewOrm().Insert(this); err != nil {
+        return err
+    }
+    return nil
+}
+
+func (this *Message) Delete() error{
+    if _, err := orm.NewOrm().Delete(this); err != nil {
         return err
     }
     return nil
