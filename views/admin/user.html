@@ -27,6 +27,7 @@
             <input type="submit" class="btn btn-primary" value="上传">
         </form>
         <img src="" alt="" id="headBgPic" class="img-rounded" style="width: 200px; height: 140px;"/>
+        <button id="removeHeadPic" class="btn btn-danger">清除图片</button>
     </div>
         <div class="form-group">
             <button id="userUpdateBtn" class="btn btn-primary form-control">修改</button>
@@ -47,6 +48,11 @@
         });
     }
     getAhthor();
+
+    $('#removeHeadPic').on('click', function(){
+        $('#headBgPic').attr('src', '');
+        $('#headPicBg').val('');
+    });
 
     $('#userUpdateBtn').on('click', function(){
         var userName = $('#userName').val();

@@ -4,7 +4,6 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/igordonshaw/inote/models"
 	"strconv"
-    "fmt"
     "strings"
     "time"
     "encoding/json"
@@ -382,7 +381,7 @@ func (this *MainController) DeleteMessage(){
 func (this *MainController) ImgUp() {
     _, fileHeder, err := this.GetFile("avatar")
     if err != nil {
-        fmt.Println(err.Error())
+        beego.Error(err.Error())
         res := &ResEntity{false, "服务器错误",nil}
         this.Data["json"] = res
         this.ServeJson()
@@ -418,7 +417,7 @@ func (this *MainController) ImgUp() {
     fileNewName := strconv.FormatInt(time.Now().Unix(), 10) + "." + ext
     err = this.SaveToFile("avatar", beego.AppPath + "/" + beego.AppConfig.String("uploaddir") + fileNewName)
     if err != nil {
-        fmt.Println(err.Error())
+        beego.Error(err.Error())
     }
 
     res := &ResEntity{true, "", "/" + beego.AppConfig.String("uploaddir") + fileNewName}
