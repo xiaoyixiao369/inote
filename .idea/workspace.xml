@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ffb5d4c-f5ee-488e-abcb-bec306f95716" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/user.html" afterPath="$PROJECT_DIR$/views/admin/user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/inote.css" afterPath="$PROJECT_DIR$/static/css/inote.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/post.html" afterPath="$PROJECT_DIR$/views/admin/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="inote.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,26 +52,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routers/router.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/default.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="343" column="17" selection-start-line="343" selection-start-column="17" selection-end-line="343" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/admin/user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45299146">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            <state vertical-scroll-proportion="-10.961538">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -115,18 +97,45 @@
       <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/admin/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-34.846153">
-              <caret line="153" column="38" selection-start-line="153" selection-start-column="38" selection-end-line="153" selection-end-column="38" />
+            <state vertical-scroll-proportion="-2.1153846">
+              <caret line="72" column="64" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/message.html">
+      <file leaf-file-name="inote.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/inote.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="173" selection-start-line="29" selection-start-column="173" selection-end-line="29" selection-end-column="173" />
+              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bacheditor.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.49751243">
+              <caret line="118" column="6" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
+              <folding>
+                <marker date="1428332848000" expanded="true" signature="53323:53492" placeholder="..." />
+                <marker date="1428332848000" expanded="true" signature="53519:54266" placeholder="..." />
+                <marker date="1428332848000" expanded="true" signature="53597:54087" placeholder="..." />
+                <marker date="1428332848000" expanded="true" signature="53714:54075" placeholder="..." />
+                <marker date="1428332848000" expanded="true" signature="53835:53978" placeholder="..." />
+                <marker date="1428332848000" expanded="true" signature="54140:54258" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editor.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/css/editor.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -175,21 +184,21 @@
         <option value="$PROJECT_DIR$/static/css/ionicons.min.css" />
         <option value="$PROJECT_DIR$/static/plugins/bacheditor/js/highlight.js" />
         <option value="$PROJECT_DIR$/static/plugins/codemirror/js/codemirror.min.js" />
-        <option value="$PROJECT_DIR$/static/plugins/bacheditor/css/editor.css" />
-        <option value="$PROJECT_DIR$/static/css/inote.css" />
         <option value="$PROJECT_DIR$/static/plugins/highlight/css/solarized_dark.min.css" />
-        <option value="$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js" />
         <option value="$PROJECT_DIR$/static/js/util.js" />
         <option value="$PROJECT_DIR$/models/model.go" />
         <option value="$PROJECT_DIR$/controllers/default.go" />
         <option value="$PROJECT_DIR$/routers/router.go" />
         <option value="$PROJECT_DIR$/views/admin/message.html" />
         <option value="$PROJECT_DIR$/static/js/main.js" />
-        <option value="$PROJECT_DIR$/views/admin/post.html" />
         <option value="$PROJECT_DIR$/views/admin/main.html" />
         <option value="$PROJECT_DIR$/static/freelancer/css/freelancer.css" />
         <option value="$PROJECT_DIR$/views/main.html" />
         <option value="$PROJECT_DIR$/views/admin/user.html" />
+        <option value="$PROJECT_DIR$/views/admin/post.html" />
+        <option value="$PROJECT_DIR$/static/css/inote.css" />
+        <option value="$PROJECT_DIR$/static/plugins/bacheditor/css/editor.css" />
+        <option value="$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js" />
       </list>
     </option>
   </component>
@@ -1029,12 +1038,12 @@
       <workItem from="1428194712874" duration="51658000" />
       <workItem from="1428252600207" duration="27659000" />
       <workItem from="1428303327498" duration="6701000" />
-      <workItem from="1428315362254" duration="6909000" />
+      <workItem from="1428315362254" duration="9036000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218140000" />
+    <option name="totallyTimeSpent" value="220267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -1052,6 +1061,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24798061" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32707354" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1065,7 +1075,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1374,33 +1383,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/css/editor.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="282" column="21" selection-start-line="282" selection-start-column="21" selection-end-line="282" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/inote.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/plugins/highlight/css/solarized_dark.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39151713">
           <caret line="0" column="1207" selection-start-line="0" selection-start-column="1207" selection-end-line="0" selection-end-column="1207" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46329528">
-          <caret line="477" column="46" selection-start-line="477" selection-start-column="46" selection-end-line="477" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -1439,14 +1425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="18" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-34.846153">
-          <caret line="153" column="38" selection-start-line="153" selection-start-column="38" selection-end-line="153" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1503,9 +1481,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45299146">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        <state vertical-scroll-proportion="-10.961538">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1153846">
+          <caret line="72" column="64" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/inote.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/css/editor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="166" column="18" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49751243">
+          <caret line="118" column="6" selection-start-line="118" selection-start-column="6" selection-end-line="118" selection-end-column="6" />
+          <folding>
+            <marker date="1428332848000" expanded="true" signature="53323:53492" placeholder="..." />
+            <marker date="1428332848000" expanded="true" signature="53519:54266" placeholder="..." />
+            <marker date="1428332848000" expanded="true" signature="53597:54087" placeholder="..." />
+            <marker date="1428332848000" expanded="true" signature="53714:54075" placeholder="..." />
+            <marker date="1428332848000" expanded="true" signature="53835:53978" placeholder="..." />
+            <marker date="1428332848000" expanded="true" signature="54140:54258" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

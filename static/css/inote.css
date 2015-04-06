@@ -54,3 +54,7 @@ a.inote-btn {
 .jQuery-plainOverlay-progress {
     border-top: 3px solid #0c7df2 !important;
 }
+
+.editor{
+    min-height: 500px!important;
+}
