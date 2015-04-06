@@ -11,6 +11,7 @@ $(function(){
         $('#author').text(user.userName);
         $('#aboutMe').text(user.aboutMe);
     });
+    hljs.initHighlightingOnLoad();
 
     function fetchOnePost(id, firstLoding){
         if(!firstLoding){
@@ -26,7 +27,14 @@ $(function(){
                     $('#postTitle').text(post.title);
                     $('#postTag').text(post.tag);
                     $('#postPublishAt').text($.dateFormat(post.publishAt));
-                    $('#postContent').html(post.content);
+                    $('#postContent').html(marked(post.content));
+                    $('pre code', '#postContent').each(function(i, block) {
+                        hljs.highlightBlock(block);
+                    });
+                    $('img', '#postContent').each(function(){
+                        $(this).addClass('img-rounded').wrap('<a class="venobox hvr-float" data-gall="myGallery" href="'+$(this).attr('src')+'">')
+                    });
+                    $('.venobox').venobox();
                     if(!firstLoding){
                         window.location = '/#i';
                     }
@@ -48,7 +56,7 @@ $(function(){
                 }
 
             });
-        }, 500)
+        }, 300)
     }
     fetchOnePost(0, true);
 

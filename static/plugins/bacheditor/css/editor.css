@@ -295,7 +295,8 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket {
   -ms-transition: left 0.1s ease;
   transition: left 0.1s ease; }
   .editor-preview code, .editor-preview pre, .editor-preview kbd {
-    background-color: #eee !important; }
+    background-color: #eee !important;
+  }
 
 .editor-preview-active {
   left: 0; }

@@ -17,6 +17,8 @@
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">-->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <link rel="stylesheet" href="/static/css/hover-min.css" media="all"/>
+    <link rel="stylesheet" href="/static/plugins/highlight/css/solarized_dark.min.css"/>
+    <link rel="stylesheet" href="/static/plugins/venobox/venobox.css" media="screen"/>
     <link rel="stylesheet" href="/static/css/inote.css"/>
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -50,10 +52,10 @@
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#postLoding">最新文章</a>
+                    <a href="#postLoding">最新发布</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#postListAnchor">文章列表</a>
+                    <a href="#postListAnchor">近期发布</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#contactMeAnchor">联系我</a>
@@ -141,7 +143,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2">
-                <a class="list-group-item active hvr-float" href="javascript:void(0);"><i class="fa fa-book fa-fw"></i>&nbsp; 近期文章</a>
+                <a class="list-group-item active hvr-float" href="javascript:void(0);"><i class="fa fa-book fa-fw"></i>&nbsp; 近期发布</a>
             </div>
             <div class="col-md-8">
                 <div id="postList" class="list-group">
@@ -233,7 +235,10 @@
 <!-- Custom Theme JavaScript -->
 <script src="/static/freelancer/js/freelancer.js"></script>
 <script src="/static/plugins/painlayer/js/jquery.plainoverlay.min.js"></script>
+<script src="/static/js/marked.min.js"></script>
+<script src="/static/plugins/highlight/js/highlight.min.js"></script>
 <script src="/static/js/json2-min.js"></script>
+<script src="/static/plugins/venobox/venobox.js"></script>
 <script src="/static/js/util.js"></script>
 <script src="/static/js/main.js"></script>
 </body>

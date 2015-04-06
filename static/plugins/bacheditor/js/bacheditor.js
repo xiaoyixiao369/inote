@@ -651,6 +651,7 @@ $(function() {
                 goLive(self);
             }
         });
+
         //添加帮助
         var helpHtml = '<div class="editor-help">\
 <ul class="editor-help-tabs nav nav-tabs" id="editorHelpTab" role="tablist">\
@@ -947,7 +948,7 @@ $(document).ready(function () {\n\
         'hr': '分割线 <hr> Cmd+R',
         'title': '标题 <h1>/<h2> Cmd+H',
         'redo': '重做 Cmd+Shift+Z',
-        'undo': '撤销 Cmd+Z',
+        'undo': '撤销 Cmd+Z'
     };
 
     /**

@@ -1,6 +1,9 @@
 #postListAnchor{
     margin-top: -150px;
 }
+pre{
+    padding: 0;
+}
 a{
     cursor: pointer;
 }

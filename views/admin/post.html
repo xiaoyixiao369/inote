@@ -153,7 +153,9 @@
                 success: function (res) {
                     if (res.success) {
                         $postModal.modal('hide');
-                        fetchPosts(parseInt($('#pageIndex').val()));
+                        var $pageIndex = $('#pageIndex');
+                        $pageIndex.val(1);
+                        fetchPosts(parseInt($pageIndex.val()));
                     } else {
                         alert(res.msg);
                     }
