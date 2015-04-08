@@ -2,926 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ffb5d4c-f5ee-488e-abcb-bec306f95716" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-favicon-16x16.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-favicon-24x24.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-favicon-32x32.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-favicon-48x48.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-favicon-64x64.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-114x114.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-120x120.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-144x144.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-16x16.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-180x180.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-240x240.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-24x24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-320x320.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-32x32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-48x48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-57x57.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-64x64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-72x72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/editormd-logo-96x96.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/fonts/editormd-logo.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/fonts/editormd-logo.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/fonts/editormd-logo.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/loading@2x.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/loading@3x.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/images/logos/vi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/3024-day.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/3024-night.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/AUTHORS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/selection/active-line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addons.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/ambiance-mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/ambiance.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/scroll/annotatescrollbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/hint/anyword-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/apl/apl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/asterisk/asterisk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/base16-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/base16-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/blackboard.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/fold/brace-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/clike/clike.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/clojure/clojure.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/edit/closebrackets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/edit/closetag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/cobalt.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/cobol/cobol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/code-block-dialog/code-block-dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/lib/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/lib/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/codemirror.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/codemirror.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/lint/coffeescript-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/coffeescript/coffeescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/colorforth.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/runmode/colorize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/fold/comment-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/comment/comment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/commonlisp/commonlisp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/comment/continuecomment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/edit/continuelist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/hint/css-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/lint/css-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/css/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/cypher/cypher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/d/d.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/dart/dart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/dialog/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/dialog/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/diff/diff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/django/django.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/dockerfile/dockerfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/dtd/dtd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/dylan/dylan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/ebnf/ebnf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/ecl/ecl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/eclipse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/fonts/editormd-logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/editormd.amd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/editormd.amd.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/css/editormd.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/editormd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/css/editormd.logo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/css/editormd.logo.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/css/editormd.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/editormd.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/css/editormd.preview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/css/editormd.preview.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/eiffel/eiffel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/elegant.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/emoji-dialog/emoji-dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/emoji-dialog/emoji.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/languages/en.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/erlang-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/erlang/erlang.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/flowchart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/fold/foldcode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/fold/foldgutter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/fold/foldgutter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/forth/forth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/fortran/fortran.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/display/fullscreen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/display/fullscreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/gas/gas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/gfm/gfm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/gherkin/gherkin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/go/go.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/goto-line-dialog/goto-line-dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/groovy/groovy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/haml/haml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/wrap/hardwrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/haskell/haskell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/haxe/haxe.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/help-dialog/help-dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/help-dialog/help.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/html-entities-dialog/html-entities-dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/html-entities-dialog/html-entities.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/hint/html-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/htmlembedded/htmlembedded.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/htmlmixed/htmlmixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/http/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/idl/idl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/image-dialog/image-dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/fold/indent-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/apl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/asterisk/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/clike/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/clojure/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/cobol/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/coffeescript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/commonlisp/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/css/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/cypher/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/d/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/dart/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/diff/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/django/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/dockerfile/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/dtd/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/dylan/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/ebnf/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/ecl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/eiffel/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/erlang/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/forth/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/fortran/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/gas/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/gfm/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/gherkin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/go/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/groovy/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/haml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/haskell/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/haxe/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/htmlembedded/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/htmlmixed/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/http/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/idl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/jade/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/javascript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/jinja2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/julia/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/kotlin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/livescript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/lua/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/markdown/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/mirc/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/mllike/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/modelica/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/nginx/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/ntriples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/octave/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/pascal/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/pegjs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/perl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/php/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/pig/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/properties/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/puppet/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/python/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/q/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/r/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/rpm/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/rpm/changes/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/rst/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/ruby/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/rust/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/sass/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/scheme/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/shell/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/sieve/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/slim/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/smalltalk/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/smarty/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/smartymixed/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/solr/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/soy/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/sparql/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/spreadsheet/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/sql/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/stex/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/stylus/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/tcl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/textile/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/tiddlywiki/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/tiki/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/toml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/tornado/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/turtle/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/vb/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/vbscript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/velocity/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/verilog/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/xml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/xquery/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/yaml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/z80/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/jade/jade.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/hint/javascript-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/lint/javascript-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/javascript/javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/jinja2/jinja2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/jquery.flowchart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/javascript/json-ld.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/lint/json-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/julia/julia.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/kotlin/kotlin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/css/less.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/css/less_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/lesser-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/link-dialog/link-dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/lint/lint.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/lint/lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/livescript/livescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/mode/loadmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/lua/lua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/selection/mark-selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/fold/markdown-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/markdown/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/marked.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/search/match-highlighter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/edit/matchbrackets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/search/matchesonscrollbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/search/matchesonscrollbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/edit/matchtags.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/mbo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/mdn-like.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/merge/merge.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/merge/merge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/meta.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/midnight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/mirc/mirc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/mllike/mllike.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/modelica/modelica.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/modes.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/monokai.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/mode/multiplex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/mode/multiplex_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/neat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/neo.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/nginx/nginx.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/night.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/ntriples/ntriples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/octave/octave.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/mode/overlay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/display/panel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/paraiso-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/paraiso-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/pascal/pascal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/pastel-on-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/pegjs/pegjs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/perl/perl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/php/php.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/pig/pig.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/display/placeholder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/plugin-template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/preformatted-text-dialog/preformatted-text-dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/prettify.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/properties/properties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/puppet/puppet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/python/python.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/q/q.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/r/r.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/raphael.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/reference-link-dialog/reference-link-dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/rpm/rpm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/rst/rst.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/ruby/ruby.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/rubyblue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/display/rulers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/runmode/runmode-standalone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/runmode/runmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/runmode/runmode.node.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/rust/rust.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/sass/sass.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/clike/scala.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/scheme/scheme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/scroll/scrollpastend.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/css/scss.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/css/scss_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/search/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/search/searchcursor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/selection/selection-pointer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/sequence-diagram.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/shell/shell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/hint/show-hint.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/hint/show-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/sieve/sieve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/mode/simple.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/scroll/simplescrollbars.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/scroll/simplescrollbars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/slim/slim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/smalltalk/smalltalk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/smarty/smarty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/smartymixed/smartymixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/solarized.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/solr/solr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/soy/soy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/sparql/sparql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/spreadsheet/spreadsheet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/hint/sql-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/sql/sql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/stex/stex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/stylus/stylus.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/table-dialog/table-dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/tcl/tcl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/tern/tern.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/tern/tern.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/plugins/test-plugin/test-plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/css/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/gfm/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/haml/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/javascript/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/markdown/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/php/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/ruby/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/shell/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/slim/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/stex/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/textile/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/verilog/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/xml/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/xquery/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/textile/textile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/the-matrix.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/tiddlywiki/tiddlywiki.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/tiddlywiki/tiddlywiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/tiki/tiki.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/tiki/tiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/toml/toml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/tomorrow-night-bright.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/tomorrow-night-eighties.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/tornado/tornado.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/edit/trailingspace.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/turtle/turtle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/twilight.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/javascript/typescript.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/underscore.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/vb/vb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/vbscript/vbscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/velocity/velocity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/verilog/verilog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/vibrant-ink.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/tern/worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/write.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/fold/xml-fold.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/hint/xml-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/xml/xml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/xq-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/xq-light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/xquery/xquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/addon/lint/yaml-lint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/yaml/yaml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/mode/z80/z80.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/lib/codemirror/theme/zenburn.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/plugins/editormd/languages/zh-tw.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/ZeroClipboard.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/ZeroClipboard.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/jquery.smoothState.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/js/responsive-hub.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/css/editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/css/editor.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/css/pygment_trac.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/css/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/images/code.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/images/editor@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/images/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/images/pattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/images/tar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/images/top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/images/zip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/js/MIDI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/js/fileupload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/js/highlight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/js/marimba-mp3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/js/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/js/piano.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bacheditor/js/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bootstrap-slider/bootstrap-slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bootstrap-slider/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/chartjs/Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/chartjs/Chart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/CHANGES.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/adapters/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/build-config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/ckeditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/contents.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/af.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/bn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/bs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/en-au.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/en-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/eo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/eu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/fo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/gu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/hi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/ka.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/km.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/ku.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/mn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/si.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/sr-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/ug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/lang/zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/about/dialogs/about.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/fakeobjects/images/spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/icons_hidpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/image/dialogs/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/image/images/noimage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/link/dialogs/anchor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/link/dialogs/link.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/link/images/anchor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/magicline/images/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/pastefromword/filter/default.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/scayt/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/scayt/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/scayt/dialogs/options.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/table/dialogs/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/wsc/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/wsc/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/wsc/dialogs/tmp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/dialog_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/dialog_ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/dialog_ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/dialog_iequirks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/dialog_opera.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/editor_gecko.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/editor_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/editor_ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/editor_ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/editor_iequirks.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/icons_hidpi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/images/arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/images/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/images/hidpi/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/images/hidpi/lock-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/images/hidpi/lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/images/hidpi/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/images/lock-open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/images/lock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/images/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/skins/moono/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/ckeditor/styles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/codemirror/css/codemirror.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/codemirror/js/codemirror.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/colorpicker/bootstrap-colorpicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/colorpicker/bootstrap-colorpicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/colorpicker/bootstrap-colorpicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/colorpicker/bootstrap-colorpicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/colorpicker/img/alpha-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/colorpicker/img/alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/colorpicker/img/hue-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/colorpicker/img/hue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/colorpicker/img/saturation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datatables/dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datatables/dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datatables/images/sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datatables/images/sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datatables/images/sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datatables/images/sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datatables/images/sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datatables/jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/bootstrap-datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/datepicker3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.az.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.cy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.ka.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.kk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.kr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.nl-BE.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.no.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.rs-latin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.rs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.sw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.ua.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/datepicker/locales/bootstrap-datepicker.zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/daterangepicker/daterangepicker-bs3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/daterangepicker/daterangepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/excanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/excanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.colorhelpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.colorhelpers.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.canvas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.canvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.categories.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.categories.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.crosshair.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.crosshair.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.errorbars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.errorbars.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.fillbetween.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.fillbetween.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.image.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.navigate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.navigate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.pie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.pie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.resize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.resize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.selection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.selection.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.stack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.stack.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.symbol.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.threshold.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.threshold.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/flot/jquery.flot.time.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/fullcalendar/fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/fullcalendar/fullcalendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/fullcalendar/fullcalendar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/fullcalendar/fullcalendar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/fullcalendar/fullcalendar.print.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/flat.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/flat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/flat@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/flat/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/futurico/futurico.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/futurico/futurico.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/futurico/futurico@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/icheck.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/icheck.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/line/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/line/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/line/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/line/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/line/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/line/line.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/line/line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/line/line@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/line/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/line/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/line/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/line/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/line/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/minimal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/minimal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/minimal@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/minimal/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/polaris/polaris.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/polaris/polaris.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/polaris/polaris@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/_all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/aero.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/aero.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/blue.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/green.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/green.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/grey.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/orange.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/pink.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/pink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/purple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/red.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/square.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/square.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/square@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/iCheck/square/yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/input-mask/jquery.inputmask.date.extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/input-mask/jquery.inputmask.extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/input-mask/jquery.inputmask.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/input-mask/jquery.inputmask.numeric.extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/input-mask/jquery.inputmask.phone.extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/input-mask/jquery.inputmask.regex.extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/input-mask/phone-codes/phone-be.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/input-mask/phone-codes/phone-codes.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/input-mask/phone-codes/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/jQueryUI/jquery-ui-1.10.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/jQueryUI/jquery-ui-1.10.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/jvectormap/jquery-jvectormap-1.2.2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/knob/jquery.knob.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/morris/morris.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/morris/morris.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/morris/morris.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/pace/pace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/silver_track/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/silver_track/js/jquery.silver_track.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/silver_track/plugins/jquery.silver_track.bullet_navigator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/silver_track/plugins/jquery.silver_track.circular_navigator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/silver_track/plugins/jquery.silver_track.css3_animation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/silver_track/plugins/jquery.silver_track.navigator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/silver_track/plugins/jquery.silver_track.remote_content.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/silver_track/plugins/jquery.silver_track.responsive_hub_connector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/silver_track/plugins/modernizr.mediaqueries.transforms3d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/sparkline/jquery.sparkline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/sparkline/jquery.sparkline.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/timepicker/bootstrap-timepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/timepicker/bootstrap-timepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/timepicker/bootstrap-timepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/plugins/timepicker/bootstrap-timepicker.min.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/default.go" afterPath="$PROJECT_DIR$/controllers/default.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/login.html" afterPath="$PROJECT_DIR$/views/admin/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/main.html" afterPath="$PROJECT_DIR$/views/main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/main.html" afterPath="$PROJECT_DIR$/views/admin/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/freelancer/css/freelancer.css" afterPath="$PROJECT_DIR$/static/freelancer/css/freelancer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/main.js" afterPath="$PROJECT_DIR$/static/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/post.html" afterPath="$PROJECT_DIR$/views/admin/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routers/router.go" afterPath="$PROJECT_DIR$/routers/router.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/user.html" afterPath="$PROJECT_DIR$/views/admin/user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/util.js" afterPath="$PROJECT_DIR$/static/js/util.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="inote.iws" />
@@ -963,8 +46,8 @@
       <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="26.73077">
-              <caret line="202" column="62" selection-start-line="202" selection-start-column="62" selection-end-line="202" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.84615386">
+              <caret line="246" column="7" selection-start-line="246" selection-start-column="7" selection-end-line="246" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -974,17 +57,27 @@
         <entry file="file://$PROJECT_DIR$/static/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+              <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="router.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routers/router.go">
+      <file leaf-file-name="app.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/app.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/js/util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27986908">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -993,8 +86,8 @@
       <file leaf-file-name="write.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/admin/write.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1153846">
-              <caret line="35" column="260" selection-start-line="35" selection-start-column="260" selection-end-line="35" selection-end-column="260" />
+            <state vertical-scroll-proportion="-4.8076925">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -1005,50 +98,38 @@
       <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/admin/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.96153843">
-              <caret line="120" column="22" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
+            <state vertical-scroll-proportion="-8.461538">
+              <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editormd.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/plugins/editormd/editormd.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0">
-              <caret line="28" column="50" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.form.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/jquery.form.min.js">
+      <file leaf-file-name="inote.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/inote.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="2915" selection-start-line="10" selection-start-column="2915" selection-end-line="10" selection-end-column="2915" />
+              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="code-block-dialog.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/plugins/editormd/plugins/code-block-dialog/code-block-dialog.js">
+      <file leaf-file-name="freelancer.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/freelancer/css/freelancer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="46" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="46" />
-              <folding>
-                <marker date="1428509155000" expanded="true" signature="3169:3182" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-10.555555">
+              <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/admin/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5897436">
-              <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+            <state vertical-scroll-proportion="-7.1153846">
+              <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -1098,11 +179,9 @@
         <option value="$PROJECT_DIR$/static/plugins/highlight/css/solarized_dark.min.css" />
         <option value="$PROJECT_DIR$/models/model.go" />
         <option value="$PROJECT_DIR$/views/admin/message.html" />
-        <option value="$PROJECT_DIR$/static/freelancer/css/freelancer.css" />
         <option value="$PROJECT_DIR$/static/css/inote.css" />
         <option value="$PROJECT_DIR$/static/plugins/bacheditor/css/editor.css" />
         <option value="$PROJECT_DIR$/static/plugins/bacheditor/js/bacheditor.js" />
-        <option value="$PROJECT_DIR$/static/js/main.js" />
         <option value="$PROJECT_DIR$/static/js/util.js" />
         <option value="$PROJECT_DIR$/static/plugins/editor-md/editormd.min.js" />
         <option value="$PROJECT_DIR$/static/plugins/editor-md/lib/codemirror/codemirror.min.js" />
@@ -1115,11 +194,13 @@
         <option value="$PROJECT_DIR$/views/admin/user.html" />
         <option value="$PROJECT_DIR$/static/plugins/editormd/editormd.min.js" />
         <option value="$PROJECT_DIR$/controllers/default.go" />
-        <option value="$PROJECT_DIR$/views/admin/write.html" />
-        <option value="$PROJECT_DIR$/views/admin/post.html" />
         <option value="$PROJECT_DIR$/views/admin/main.html" />
         <option value="$PROJECT_DIR$/static/plugins/editormd/plugins/code-block-dialog/code-block-dialog.js" />
         <option value="$PROJECT_DIR$/views/admin/login.html" />
+        <option value="$PROJECT_DIR$/views/admin/write.html" />
+        <option value="$PROJECT_DIR$/views/admin/post.html" />
+        <option value="$PROJECT_DIR$/static/freelancer/css/freelancer.css" />
+        <option value="$PROJECT_DIR$/static/js/main.js" />
       </list>
     </option>
   </component>
@@ -1634,12 +715,12 @@
       <workItem from="1428315362254" duration="10593000" />
       <workItem from="1428419379323" duration="6335000" />
       <workItem from="1428493342067" duration="4688000" />
-      <workItem from="1428500310473" duration="9127000" />
+      <workItem from="1428500310473" duration="11504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241974000" />
+    <option name="totallyTimeSpent" value="244351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -1731,13 +812,6 @@
         <state vertical-scroll-proportion="0.33333334">
           <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/app.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.2">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1870,20 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/freelancer/css/freelancer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.4863014">
-          <caret line="131" column="35" selection-start-line="131" selection-start-column="23" selection-end-line="131" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/inote.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/model.go">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1906,14 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2040,24 +1092,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/write.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1153846">
-          <caret line="35" column="260" selection-start-line="35" selection-start-column="260" selection-end-line="35" selection-end-column="260" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.96153843">
-          <caret line="120" column="22" selection-start-line="120" selection-start-column="22" selection-end-line="120" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/plugins/editormd/editormd.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.0">
@@ -2079,7 +1113,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="91" column="46" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="46" />
           <folding>
-            <marker date="1428509155000" expanded="true" signature="3169:3182" placeholder="..." />
+            <marker date="1428509155000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -2092,10 +1126,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1153846">
+          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8076925">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/inote.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/freelancer/css/freelancer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.555555">
+          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="26.73077">
-          <caret line="202" column="62" selection-start-line="202" selection-start-column="62" selection-end-line="202" selection-end-column="62" />
+        <state vertical-scroll-proportion="0.84615386">
+          <caret line="246" column="7" selection-start-line="246" selection-start-column="7" selection-end-line="246" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.461538">
+          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -2103,15 +1179,23 @@
     <entry file="file://$PROJECT_DIR$/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin/login.html">
+    <entry file="file://$PROJECT_DIR$/conf/app.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5897436">
-          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27986908">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding />
         </state>
       </provider>

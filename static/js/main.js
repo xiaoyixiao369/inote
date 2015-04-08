@@ -66,7 +66,7 @@ $(function(){
             if(posts && posts.length > 0){
                 var lis = [];
                 for(var i = 0; i < posts.length; i++){
-                    lis.push('<li class="list-group-item"><input type="hidden" name="" value="'+posts[i].id+'"/><a class="inote-post-list">['+posts[i].tag+']&nbsp;&nbsp;'+posts[i].title+'</a></li>');
+                    lis.push('<li class="list-group-item"><input type="hidden" name="" value="'+posts[i].id+'"/><a class="inote-post-list">['+posts[i].tag+']&nbsp;&nbsp;'+posts[i].title+'<small class="pull-right"><em>'+ $.dateFormat(posts[i].publishAt)+'</em></small></a></li>');
                 }
                 $('#postList').append(lis.join(''));
                 $('.inote-post-list').on('click', function(){

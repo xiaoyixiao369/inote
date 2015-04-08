@@ -146,8 +146,8 @@ header .intro-text .skills {
 }
 
 .navbar {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "微软雅黑","黑体",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
 }
 
 .navbar a:focus {
