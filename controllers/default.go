@@ -12,7 +12,7 @@ import (
     "github.com/astaxie/beego/orm"
 )
 
-var IMG_EXT = []string{"jpg","jpeg","png","JPG","JPEG","PNG"}
+var IMG_EXT = []string{"jpg","jpeg","png","bmp","webp","JPG","JPEG","PNG","BMP","WEBP"}
 var PAGE_SIZE = 10
 
 type ResEntity struct {
@@ -55,14 +55,17 @@ func (this *MainController) UserPage(){
     this.TplNames = "admin/user.html"
 }
 
-
 func (this *MainController) PostPage(){
     this.TplNames = "admin/post.html"
 }
+
 func (this *MainController) MessagePage(){
     this.TplNames = "admin/message.html"
 }
 
+func (this *MainController) WritePage(){
+    this.TplNames = "admin/write.html"
+}
 
 func (this *UserControlelr) Author(){
     qsUser := new(models.User)
@@ -379,7 +382,7 @@ func (this *MainController) DeleteMessage(){
 }
 
 func (this *MainController) ImgUp() {
-    _, fileHeder, err := this.GetFile("avatar")
+    _, fileHeder, err := this.GetFile("editormd-image-file")
     if err != nil {
         beego.Error(err.Error())
         res := &ResEntity{false, "服务器错误",nil}
@@ -415,7 +418,7 @@ func (this *MainController) ImgUp() {
     }
 
     fileNewName := strconv.FormatInt(time.Now().Unix(), 10) + "." + ext
-    err = this.SaveToFile("avatar", beego.AppPath + "/" + beego.AppConfig.String("uploaddir") + fileNewName)
+    err = this.SaveToFile("editormd-image-file", beego.AppPath + "/" + beego.AppConfig.String("uploaddir") + fileNewName)
     if err != nil {
         beego.Error(err.Error())
     }

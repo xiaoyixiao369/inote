@@ -40,6 +40,7 @@
                             <label for="postTitle">标题</label>
                             <input type="text" class="form-control" id="postTitle">
                             <input type="hidden" name="" id="postId"/>
+                            <input type="hidden" name="" id="postContent"/>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -51,7 +52,8 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="editor"><textarea class="pre-scrollable" id="postEditor"></textarea></div>
+                        <!--<div id="postEditor"> <textarea style="display:none;"></textarea></div>-->
+                        <iframe id="postContentIframe" src="#" name="postContentIframe" frameborder="0" width="100%" height="600"></iframe>
                     </div>
                 </div>
             </div>
@@ -65,8 +67,6 @@
 <script>
     $(function () {
         $postModal = $('#postModal');
-        var postEditor = new Editor();
-        postEditor.render('#postEditor');
 
         var fetchPosts = function (page) {
             if(page == 1){
@@ -75,7 +75,6 @@
             $('#postId').val('');
             $('#postTitle').val('');
             $('#postTag').val('');
-            postEditor.setVal('');
             $.get('/i/posts/list/'+page, function (posts) {
                 var rows = [];
                 if (posts && posts.length > 0) {
@@ -116,6 +115,7 @@
         fetchPosts(parseInt($('#pageIndex').val()));
 
         $postModal.on('show.bs.modal', function (event) {
+            $('#postContentIframe').attr('src', '/admin/write');
             var $button = $(event.relatedTarget);
             if ($button.attr('class').indexOf("post-update") > 0) {
                 var postId = $button.find('input[type="hidden"]:eq(0)').val();
@@ -125,7 +125,7 @@
                         $('#postId').val(postId);
                         $('#postTitle').val(vlidField(post.title));
                         $('#postTag').val(vlidField(post.tag));
-                        postEditor.setVal(post.content);
+                        $('#postContent').val(post.content);
                     } else {
                         alert(res.msg);
                     }
@@ -135,17 +135,23 @@
                 $('#postId').val('');
                 $('#postTitle').val('');
                 $('#postTag').val('');
-                postEditor.setVal('');
+                $('#postContent').val('');
             }
 
         });
 
         $('#savePost').on('click', function () {
+            var editorContentArea = $(window.frames["postContentIframe"].document).find("#editormd>textarea");
+            var content = editorContentArea.val();
+            if($.trim(content) == ''){
+                alert('内容不能为空');
+                return;
+            }
             var post = {
                 id: $('#postId').val(),
                 title: vlidField($('#postTitle').val()),
                 tag: vlidField($('#postTag').val()),
-                content: postEditor.getVal()
+                content: content
             };
             $.ajax({
                 url: '/admin/post/save',
@@ -157,6 +163,7 @@
                     if (res.success) {
                         $postModal.modal('hide');
                         var $pageIndex = $('#pageIndex');
+                        editorContentArea.val('');
                         $pageIndex.val(1);
                         fetchPosts(parseInt($pageIndex.val()));
                     } else {

@@ -2,6 +2,10 @@ function vlidField(field){
     return field.replace(/[@#\$%\^&\*<>']+/g, '');
 }
 
+function getCopyrightYear(){
+    return new Date().getFullYear();
+}
+
 $.extend({
     dateFormat: function(time){
         var data = new Date(time);

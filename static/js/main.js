@@ -1,4 +1,5 @@
 $(function(){
+    $('.inote-copyright-year').text(getCopyrightYear());
     $.get('/author', function(user){
         var siteTitle = user.siteTitle;
         if(user.headBgPic && user.headBgPic.length > 0){
