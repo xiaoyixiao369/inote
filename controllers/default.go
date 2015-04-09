@@ -237,6 +237,9 @@ func (this *MainController) DeletePost(){
         return
     }
 
+    o := orm.NewOrm()
+    o.Raw("DELETE FROM message WHERE post_id=?", id).Exec()
+
     res.Success = true
     res.Msg = "删除成功"
     this.Data["json"] = res
@@ -426,4 +429,17 @@ func (this *MainController) ImgUp() {
     res := &ResEntity{true, "", "/" + beego.AppConfig.String("uploaddir") + fileNewName}
     this.Data["json"] = res
     this.ServeJson()
+}
+
+
+type ErrorController struct {
+    BaseController
+}
+
+func (c *ErrorController) Error404() {
+    c.TplNames = "error/404.tpl"
+}
+
+func (c *ErrorController) Error501() {
+
 }
