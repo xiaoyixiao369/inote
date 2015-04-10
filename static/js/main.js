@@ -14,6 +14,19 @@ $(function(){
     });
     hljs.initHighlightingOnLoad();
 
+    var hash = window.location.hash;
+    if(hash && hash.indexOf('#') == 0){
+        var id = hash.substring(1, hash.length);
+        if ($.isNumeric(id)){
+            fetchOnePost(id, false);
+        } else {
+            window.location = '/';
+        }
+    } else {
+        fetchOnePost(0, true);
+    }
+
+
     function fetchOnePost(id, firstLoding){
         if(!firstLoding){
             window.location = '/#postLoding';
@@ -37,7 +50,7 @@ $(function(){
                     });
                     $('.venobox').venobox();
                     if(!firstLoding){
-                        window.location = '/#i';
+                        window.location = '/#'+id;
                     }
                     $('#postLoding').plainOverlay('hide');
                     var messages = res.data.messages;
@@ -59,7 +72,6 @@ $(function(){
             });
         }, 300)
     }
-    fetchOnePost(0, true);
 
     function fetchPosts(page){
         $.get('/i/posts/list/'+page, function(posts){
@@ -121,7 +133,7 @@ $(function(){
                         var $postMsgCount = $('#postMessageCount');
                         $postMsgCount.text(parseInt($postMsgCount.text())+1);
                         window.location = '/#postMessageAnchor';
-                        window.location = '/#i';
+                        window.location = '/#'+ message.postId;
                     }else{
                         $('#success').html("<div class='alert alert-danger'>").find('.alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                             .append("</button>").append("<strong>提交失败</strong>");

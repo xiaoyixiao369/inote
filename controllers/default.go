@@ -440,6 +440,6 @@ func (c *ErrorController) Error404() {
     c.TplNames = "error/404.tpl"
 }
 
-func (c *ErrorController) Error501() {
-
+func (c *ErrorController) Error403() {
+    c.TplNames = "error/403.tpl"
 }
