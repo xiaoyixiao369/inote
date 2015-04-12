@@ -15,17 +15,19 @@
 
 
 ## Linux环境编译安装（OSX,Win环境类似）
-1. 安装GO
+1. 安装GO      
+   参考[install golang](http://golang.org/doc/install#tarball "install golang")
 2. 安装mysql
-3. 安装beego, bee工具(可选), mysql驱动
+   参考[install mysql](http://dev.mysql.com/doc/refman/5.6/en/installing.html "install mysql")
+3. 安装beego, bee工具(可选), mysql驱动     
        go get github.com/astaxie/beego
        go get github.com/beego/bee
        go get github.com/go-sql-driver/mysql    
 	      
-4. 安装iNote  
+4. 安装iNote       
        go get github.com/igordonshaw/inote     
 	   
-5. 新建数据库inode并导入初始化脚本($GOPATH/src/github/igordonshaw/inote/dbinit/inote.sql)
+5. 新建数据库inode并导入初始化脚本($GOPATH/src/github/igordonshaw/inote/dbinit/inote.sql)      
 6. 按照实际情况修改iNote配置文件中的程序运行模式、监听端口及数据库参数
         ###################### 程序基本配置 ############################
     
@@ -53,14 +55,14 @@
 		# MYSQL数据库名称
 		dbname = inote
 
-7. 编译iNote
+7. 编译iNote    
 		cd $GOPATH/src/github/igordonshaw/inote
 		go build
 		
-8. 运行iNote(nohup模式)
+8. 运行iNote(nohup模式)      
     	nohup ./inote &
 		
-9. 访问iNote     
+9. 访问iNote      
 		首页：localhost:8080  
 		后台登录：localhost:8080/login
 
