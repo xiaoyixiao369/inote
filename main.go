@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-	beego.ErrorController(&controllers.ErrorController{})
 	beego.SetLogger("file", `{"filename":"./log/inote.log"}`)
+	beego.ErrorController(&controllers.ErrorController{})
 	beego.Run()
 }
 

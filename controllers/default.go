@@ -13,7 +13,31 @@ import (
 )
 
 var IMG_EXT = []string{"jpg","jpeg","png","bmp","webp","JPG","JPEG","PNG","BMP","WEBP"}
-var PAGE_SIZE = 10
+var PAGE_SIZE int
+var LOGIN_LOCK_TIMES int
+var RELOGIN_PERIOD int64
+var LOGIN_COUNT = 0
+var LAST_LOGIN_TIME = time.Now().Unix()
+
+func init(){
+    pageSize, err := beego.AppConfig.Int("pagesize")
+    if err != nil {
+        PAGE_SIZE = 10
+    }
+    PAGE_SIZE = pageSize
+
+    loginLockTimes, err := beego.AppConfig.Int("loginlocktimes")
+    if err != nil {
+        LOGIN_LOCK_TIMES = 5
+    }
+    LOGIN_LOCK_TIMES = loginLockTimes
+
+    reLoginPeriod, err := beego.AppConfig.Int64("reloginperiod")
+    if err != nil {
+        reLoginPeriod = 30
+    }
+    RELOGIN_PERIOD = reLoginPeriod
+}
 
 type ResEntity struct {
 	Success bool `json:"success"`
@@ -33,11 +57,6 @@ type MainController struct {
 type UserControlelr struct {
     BaseController
 }
-
-type CategoryController struct {
-    BaseController
-}
-
 
 type PostController struct {
     BaseController
@@ -75,22 +94,59 @@ func (this *UserControlelr) Author(){
     this.ServeJson()
 }
 
-func (this *MainController) Login(){
-	uname := this.Input().Get("uname")
-	pwd := this.Input().Get("pwd")
-	autoLogin := this.Input().Get("autoLogin") == "on"
+func (this *MainController) ValidUser(){
+    res := &ResEntity{}
+    if (time.Now().Unix() - LAST_LOGIN_TIME < RELOGIN_PERIOD){
+        LOGIN_COUNT++
+    } else {
+        LOGIN_COUNT = 0
+    }
 
-	if beego.AppConfig.String("uname") == uname && beego.AppConfig.String("pwd") == pwd{
-		maxAge := 0
-		if autoLogin {
-			maxAge = 1 << 31 -1
-		}
+    if LOGIN_COUNT >= LOGIN_LOCK_TIMES {
+        res.Success = false
+        if LOGIN_COUNT > LOGIN_LOCK_TIMES + 3{
+            res.Msg = "悟空，不要调皮了"
+        } else {
+            res.Msg = "连续尝试"+strconv.Itoa(LOGIN_COUNT)+"次登录失败, 请隔"+strconv.Itoa(int(RELOGIN_PERIOD))+"秒后再登录"
+        }
+        this.Data["json"] = res
+        this.ServeJson()
+        return;
+    }
 
-		this.Ctx.SetCookie("uname", uname, maxAge, "/")
-	}
-
-	this.Redirect("/", 301)
+    h := md5.New()
+    h.Write([]byte(string(this.Ctx.Input.RequestBody)))
+    inputPwd := hex.EncodeToString(h.Sum(nil))
+    qsUser := new(models.User)
+    userDb := models.User{Id: 1}
+    qsUser.Query().Filter("id", int64(1)).One(&userDb)
+    if userDb.Password != inputPwd {
+        LAST_LOGIN_TIME = time.Now().Unix()
+        res.Success = false
+        res.Msg = "登录失败"
+        this.Data["json"] = res
+        this.ServeJson()
+        return;
+    }
+    /*maxAge := 0
+    maxAge = 1 << 31 -1
+    this.Ctx.SetCookie("username", "inote", maxAge, "/")*/
+    LOGIN_COUNT = 0
+    LAST_LOGIN_TIME = time.Now().Unix()
+    this.SetSession("inote", 1)
+	res.Success = true
+    res.Msg = "登录成功"
+    this.Data["json"] = res
+    this.ServeJson()
 	return
+}
+
+func (this *MainController) Logout(){
+    this.DelSession("inote")
+    res := &ResEntity{true, "退出成功", nil}
+    this.Data["json"] = res
+    this.ServeJson()
+    return
 }
 
 
@@ -189,7 +245,6 @@ func (this *MainController) SavePost(){
         Tag: frontPost.Tag,
         Content:frontPost.Content,
     }
-
 
     if "" == post.Title {
         post.Title = "未命名"
@@ -433,13 +488,11 @@ func (this *MainController) ImgUp() {
 
 
 type ErrorController struct {
-    BaseController
+    beego.Controller
 }
 
 func (c *ErrorController) Error404() {
-    c.TplNames = "error/404.tpl"
 }
 
 func (c *ErrorController) Error403() {
-    c.TplNames = "error/403.tpl"
 }

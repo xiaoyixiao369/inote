@@ -4,11 +4,13 @@ import (
     "github.com/igordonshaw/inote/controllers"
     "github.com/astaxie/beego"
     "github.com/astaxie/beego/context"
+    "strings"
 )
 
 func init() {
     beego.Router("/", &controllers.MainController{})
     beego.Router("/login", &controllers.MainController{}, "get:LoginPage")
+    beego.Router("/validUser", &controllers.MainController{}, "post:ValidUser")
     beego.Router("/author", &controllers.UserControlelr{}, "get:Author")
     nsApi :=
         beego.NewNamespace("/i",
@@ -22,6 +24,7 @@ func init() {
     nsAdmin :=
        beego.NewNamespace("admin",
        beego.NSRouter("/main", &controllers.MainController{}, "get:Main"),
+       beego.NSRouter("/logout", &controllers.MainController{}, "get:Logout"),
        beego.NSRouter("/user", &controllers.MainController{}, "get:UserPage"),
        beego.NSRouter("/userUpdate", &controllers.MainController{}, "post:UserUpdate"),
        beego.NSRouter("/post", &controllers.MainController{}, "get:PostPage"),
@@ -37,10 +40,11 @@ func init() {
     beego.AddNamespace(nsAdmin)
 
     var checkUser = func(ctx *context.Context) {
-        /*_, ok := ctx.Input.Session("uid").(int)
-        if !ok && ctx.Request.RequestURI != "/login" {
-            ctx.Redirect(302, "/login") }*/
-
+        if strings.HasPrefix(ctx.Request.RequestURI, "/admin"){
+            _, ok := ctx.Input.Session("inote").(int)
+            if !ok && ctx.Request.RequestURI != "/login" {
+                ctx.Redirect(302, "/login") }
+        }
     }
     beego.InsertFilter("/*",beego.BeforeRouter,checkUser)
 }

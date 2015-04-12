@@ -16,7 +16,8 @@
     <link href="/static/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css"/>
     <!-- AdminLTE Skins. Choose a skin from the css/skins 
          folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="/static/dist/css/skins/_all-skins.min.css"/>
+    <!--<link rel="stylesheet" href="/static/dist/css/skins/_all-skins.min.css"/>-->
+    <link rel="stylesheet" href="/static/dist/css/skins/skin-blue.min.css"/>
     <link rel="stylesheet" href="/static/plugins/editormd/css/editormd.css"/>
     <link rel="stylesheet" href="/static/css/inote.css"/>
 
@@ -64,7 +65,7 @@
                                     <a href="#" class="btn btn-default btn-flat" data-toggle="modal" data-target="#resetPwd">重置密码</a>
                                 </div>
                                 <div class="pull-right">
-                                    <a href="#" class="btn btn-default btn-flat">退出</a>
+                                    <a href="#" id="btnLogout" class="btn btn-default btn-flat">退出</a>
                                 </div>
                             </li>
                         </ul>
@@ -96,7 +97,7 @@
             <div id="content">
                 <h2 class="lead text-center text-blue text-bold">欢迎使用iNote</h2>
                 <hr class="divider"/>
-                <p class="text-center">iNote是一款开源，免费，简洁的博客程序</p>
+                <p id="aboutMeMain" class="text-center"></p>
                 <p class="text-center"><a href="https://github.com/igordonshaw/inote" target="_blank"><i class="fa fa-github">&nbsp;&nbsp;fork me on github</i></a></p>
             </div>
         </section>
@@ -151,6 +152,7 @@
         $.get('/author', function(user){
             $('#avatar').attr('src', user.thumb);
             $('#author').text(user.userName);
+            $('#aboutMeMain').text(user.aboutMe);
         });
         // 加载菜单页面
         $('.sidebar-menu .menu-page').on('click', function(){
@@ -177,6 +179,12 @@
                         $('#resetPwd').modal('hide');
                     }
                 }
+            });
+        });
+        // 退出登录
+        $('#btnLogout').on('click', function(){
+            $.get('/admin/logout', function(res){
+                window.location = "/";
             });
         });
     });
