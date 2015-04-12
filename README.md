@@ -17,7 +17,7 @@
 ## Linux环境编译安装（OSX,Win环境类似）
 1. 安装GO      
    参考[install golang](http://golang.org/doc/install#tarball "install golang")
-2. 安装mysql
+2. 安装mysql      
    参考[install mysql](http://dev.mysql.com/doc/refman/5.6/en/installing.html "install mysql")
 3. 安装beego, bee工具(可选), mysql驱动     
        go get github.com/astaxie/beego
