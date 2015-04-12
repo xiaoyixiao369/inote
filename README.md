@@ -1,4 +1,4 @@
-#  iNote是一款开源，免费，简洁的单页博客程序    
+# iNote是一款开源，免费，简洁的单页博客
 > iNote是在[beego(golang语言)](http://beego.me/ "beego(golang语言)")&[bootstrap](http://getbootstrap.com/ "bootstrap")等开源项目基础之上开发的
 
 ## 功能简介
@@ -14,7 +14,7 @@
 - Web后台管理
 
 
-## Linux环境编译安装（OSX,Windows环境类似）
+## Linux环境编译安装（OSX,Win环境类似）
 1. 安装GO
 2. 安装mysql
 3. 安装beego, bee工具(可选), mysql驱动
@@ -64,6 +64,7 @@
 		首页：localhost:8080  
 		后台登录：localhost:8080/login
 
-	![](https://raw.githubusercontent.com/igordonshaw/inote/master/screenshot/21A9C0EB-30AB-4512-96C3-4FCC754F9E80.png)
+	<img src="https://raw.githubusercontent.com/igordonshaw/inote/master/screenshot/21A9C0EB-30AB-4512-96C3-4FCC754F9E80.png" width="200" height="350"/>
+
 	[DEMO](http://120.55.100.241 "DEMO")
     
