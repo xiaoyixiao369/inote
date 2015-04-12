@@ -68,5 +68,5 @@
 
 	<img src="https://raw.githubusercontent.com/igordonshaw/inote/master/screenshot/21A9C0EB-30AB-4512-96C3-4FCC754F9E80.png" width="200" height="350"/>
 
-	[DEMO](http://120.55.100.241 "DEMO")
+	[My iNote demo](http://120.55.100.241 "DEMO")
     
