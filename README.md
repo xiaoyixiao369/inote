@@ -64,7 +64,8 @@
 		
 9. 访问iNote      
 		首页：localhost:8080  
-		后台登录：localhost:8080/login
+		后台登录：localhost:8080/login      
+                默认密码：admin
 
 	<img src="https://raw.githubusercontent.com/igordonshaw/inote/master/screenshot/21A9C0EB-30AB-4512-96C3-4FCC754F9E80.png" width="200" height="350"/>
 
