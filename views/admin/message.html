@@ -4,6 +4,7 @@
         <tr>
             <th>游客名称</th>
             <th>内容</th>
+            <th>回复</th>
             <th>所属文章</th>
             <th>发表时间</th>
             <th>操作</th>
@@ -20,16 +21,54 @@
     <span class="fix-height"></span>
 </div>
 
+<!-- reply message -->
+<div class="modal fade" id="replyMessageModel" tabindex="-1" role="dialog" aria-labelledby="replyModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="replyModalLabel">回复留言</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <div>
+                        <input type="hidden" name="" id="replyMessageId"/>
+                        <label for="replyContent">回复内容</label>
+                        <textarea class="form-control" id="replyContent"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+                <button type="button" class="btn btn-primary" id="btnReplyMessage">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <script>
     $(function(){
+        var $replyMessageModel = $('#replyMessageModel');
+
         var fetchMessages = function (page) {
             $.get('/admin/message/list/'+page, function (messages) {
                 var rows = [];
                 if (messages && messages.length > 0) {
                     for (var i = 0; i < messages.length; i++) {
-                        rows.push('<tr><td>' + vlidField(messages[i].guestName) + '</td><td>' + vlidField(messages[i].content) + '</td><td>'+vlidField(messages[i].postTitle)+'</td><td>' + $.dateFormat(messages[i].createdAt) + '</td><td><button href="javascript:void(0);" class="btn btn-danger message-delete"><input type="hidden" name="" value="' + messages[i].id + '" /><span class="glyphicon glyphicon-minus"></span>&nbsp;删除</button></td></tr>')
+                        rows.push('<tr><td>' + vlidField(messages[i].guestName) + '</td><td>' + vlidField(messages[i].content) + '</td><td id="reply_'+messages[i].id+'">'+vlidField(messages[i].reply)+'</td><td>'+vlidField(messages[i].postTitle)+'</td><td>' + $.dateFormat(messages[i].createdAt) + '</td><td><button class="btn btn-success message-reply" data-toggle="modal" data-target="#replyMessageModel"><input type="hidden" name="" value="' + messages[i].id + '" /><span class="glyphicon glyphicon-edit"></span>&nbsp;回复</button>&nbsp;&nbsp;<button class="btn btn-danger message-delete"><input type="hidden" name="" value="' + messages[i].id + '" /><span class="glyphicon glyphicon-minus"></span>&nbsp;删除</button></td></tr>')
                     }
                     $('#messageList').find('tbody').append(rows);
+
+                    $replyMessageModel.on('show.bs.modal', function (event) {
+                        var $button = $(event.relatedTarget);
+                        var replyMessageId = $button.find('>input').val();
+                        var replyContentTd = $button.parent().parent().find('td:eq(2)');
+                        var replyContent = replyContentTd.text();
+                        $('#replyMessageId').val(replyMessageId);
+                        $('#replyContent').val(replyContent);
+                    });
 
                     $('.message-delete').on('click', function () {
                         var $this = $(this);
@@ -53,6 +92,32 @@
                 }
             });
         };
+
+        $('#btnReplyMessage').on('click', function(){
+            var replyMessageId = $('#replyMessageId').val();
+            var replyContent = $('#replyContent').val();
+            var frontReply = {
+                messageId: replyMessageId,
+                reply: vlidField(replyContent)
+            };
+            $.ajax({
+                url: '/admin/message/reply',
+                contentType: 'applcation/json',
+                type: 'POST',
+                data: JSON.stringify(frontReply),
+                cache: false,
+                success: function (res) {
+                    if (res.success) {
+                        $('#reply_'+replyMessageId).text(vlidField(replyContent));
+                        $replyMessageModel.modal('hide');
+                        $('#replyMessageId').val('');
+                        $('#replyContent').val('');
+                    } else {
+                        alert(res.msg);
+                    }
+                }
+            });
+        });
 
         $('#loadNextPageBtn').on('click', function(){
             var $pageIndex = $('#pageIndex');

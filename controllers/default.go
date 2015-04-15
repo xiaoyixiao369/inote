@@ -401,7 +401,7 @@ func (this *MainController) ListMessage(){
     var messages []models.Message
     qb, _ := orm.NewQueryBuilder("mysql")
 
-    qb.Select("id","guest_name","content","post_title", "created_at").
+    qb.Select("id","guest_name", "reply","content","post_title", "created_at").
     From("message").
     OrderBy("created_at").Desc().
     Limit(PAGE_SIZE + 10).Offset((page - 1) * PAGE_SIZE)
@@ -434,6 +434,39 @@ func (this *MainController) DeleteMessage(){
 
     res.Success = true
     res.Msg = "删除成功"
+    this.Data["json"] = res
+    this.ServeJson()
+    return
+}
+
+type FrontPeply struct {
+    MessageId string `json:"messageId"`
+    Reply string `json:"reply"`
+}
+
+func (this *MainController) ReplyMessage(){
+    res := &ResEntity{}
+    var frontPeply FrontPeply
+    err := json.Unmarshal(this.Ctx.Input.RequestBody, &frontPeply)
+    if err != nil {
+        beego.Error("invalid reply," + err.Error())
+        res.Success = false
+        res.Msg = "无效的回复"
+        this.Data["json"] = res
+        this.ServeJson()
+        return
+    }
+    messageId,err :=strconv.Atoi(frontPeply.MessageId)
+    if err != nil {
+        beego.Error(err)
+    }
+    messageDb := &models.Message{Id: int64(messageId)}
+    messageDb.Read()
+    messageDb.Reply = frontPeply.Reply;
+    messageDb.Update()
+
+    res.Success = true
+    res.Msg = "回复成功"
     this.Data["json"] = res
     this.ServeJson()
     return

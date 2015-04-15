@@ -84,6 +84,7 @@ type Message struct {
     Id int64 `json:"id"`
     GuestName string `json:"guestName"`
     Content string `orm:"type(text)" json:"content"`
+    Reply string `json:"reply"`
     PostId int64 `json:"postId"`
     PostTitle string `json:"postTitle"`
     CreatedAt time.Time `orm:"auto_now_add;type(datetime)" json:"createdAt"`
@@ -94,6 +95,16 @@ func (this *Message) Insert() error {
         return err
     }
     return nil
+}
+
+func (this *Message) Read() error {
+    o := orm.NewOrm()
+    return o.Read(this)
+}
+
+func (this *Message) Update(){
+    o := orm.NewOrm()
+    o.Update(this)
 }
 
 func (this *Message) Delete() error{

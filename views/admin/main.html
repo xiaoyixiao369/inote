@@ -64,7 +64,7 @@
                             <!-- Menu Footer-->
                             <li class="user-footer">
                                 <div class="pull-left">
-                                    <a href="#" class="btn btn-default btn-flat" data-toggle="modal" data-target="#resetPwd">重置密码</a>
+                                    <a href="#" class="btn btn-default btn-flat" data-toggle="modal" data-target="#resetPwdModel">重置密码</a>
                                 </div>
                                 <div class="pull-right">
                                     <a href="#" id="btnLogout" class="btn btn-default btn-flat">退出</a>
@@ -109,12 +109,12 @@
 </div>
 <!-- ./wrapper -->
 <!-- reset pwd -->
-<div class="modal fade" id="resetPwd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="resetPwdModel" tabindex="-1" role="dialog" aria-labelledby="resetPwdModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">重置密码</h4>
+                <h4 class="modal-title" id="resetPwdModalLabel">重置密码</h4>
             </div>
             <div class="modal-body">
                 <div class="form-group">
@@ -178,7 +178,7 @@
                     if(res.success){
                         alert(res.msg);
                         $('#newPwd').val('');
-                        $('#resetPwd').modal('hide');
+                        $('#resetPwdModel').modal('hide');
                     }
                 }
             });

@@ -7,12 +7,12 @@
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <meta name="renderer" content="webkit">
     <!-- Bootstrap 3.3.2 -->
-    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" href="/static/css/inote_fav.ico">
     <!-- Font Awesome Icons -->
     <link href="/static/freelancer/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Theme style -->
-    <link href="/static/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+    <link href="/static/dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="/static/css/inote.css"/>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,14 +41,17 @@
         <!-- lockscreen credentials (contains the form) -->
         <div class="lockscreen-credentials">
             <div class="input-group">
-                <input type="password" id="password" class="form-control" placeholder="password" />
+                <input type="password" id="password" class="form-control" placeholder="password"/>
+
                 <div class="input-group-btn">
                     <button class="btnLogin" id="btnLogin"><i class="fa fa-arrow-right text-muted"></i></button>
                 </div>
             </div>
-        </div><!-- /.lockscreen credentials -->
+        </div>
+        <!-- /.lockscreen credentials -->
 
-    </div><!-- /.lockscreen-item -->
+    </div>
+    <!-- /.lockscreen-item -->
     <div class="help-block text-center">
 
     </div>
@@ -59,7 +62,8 @@
         Copyright &copy; <span class="inote-copyright-year"></span> <b><a href="#" class='text-black'>iNote</a></b><br>
         All rights reserved
     </div>
-</div><!-- /.center -->
+</div>
+<!-- /.center -->
 
 <!-- jQuery 2.1.3 -->
 <script src="/static/plugins/jQuery/jQuery-2.1.3.min.js"></script>
@@ -68,17 +72,19 @@
 <script src="/static/js/jquery.md5.js"></script>
 <script src="/static/js/util.js"></script>
 <script>
-    $(function(){
+    $(function () {
         $('.inote-copyright-year').text(getCopyrightYear());
         // 获取用户信息
-        $.get('/author', function(user){
+        $.get('/author', function (user) {
             $('#avatar').attr('src', user.thumb);
             $('#userName').text(user.userName);
         });
 
-        $('#btnLogin').on('click', function(){
+        $('#password').focus();
+
+        $('#btnLogin').on('click', function () {
             var pwd = $.trim($('#password').val());
-            if(pwd == ''){
+            if (pwd == '') {
                 alert('密码不能为空');
                 return false;
             }
@@ -87,14 +93,19 @@
                 url: '/validUser',
                 data: $.md5(pwd),
                 contentType: 'applcation/json',
-                success: function(res){
-                    if(!res.success){
+                success: function (res) {
+                    if (!res.success) {
                         alert(res.msg);
                         return false;
                     }
                     window.location = '/admin/main';
                 }
             });
+        });
+        $(window).keydown(function (e) {
+            if(e.keyCode == 13){
+                $('#btnLogin').click();
+            }
         });
     });
 </script>

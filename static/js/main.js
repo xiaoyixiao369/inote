@@ -59,7 +59,12 @@ $(function(){
                         $('#postMessageCount').text(msgCount);
                         var msgs = [];
                         for(var i = 0; i < msgCount; i++){
-                            msgs.push('<blockquote><div class="hvr-sink"><span class="text-primary">'+vlidField(messages[i].content)+'</span><footer><span><em>'+ $.dateFormat(messages[i].createdAt)+'</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+vlidField(messages[i].guestName)+'</span></footer></div></blockquote>');
+                            var message = '<blockquote><div class="hvr-sink"><span class="text-primary">'+vlidField(messages[i].content)+'</span><footer><span><em>'+ $.dateFormat(messages[i].createdAt)+'</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'+vlidField(messages[i].guestName)+'</span></footer></div><br/>';
+                            if(messages[i].reply){
+                                message +=  '<footer class="hvr-bounce-to-right">回复:&nbsp;&nbsp;'+messages[i].reply+'</footer>';
+                            }
+                            message += '</blockquote>';
+                            msgs.push(message);
                         }
                         $('#postMessages').html(msgs.join(''));
                     }
