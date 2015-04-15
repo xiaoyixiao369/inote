@@ -11,6 +11,7 @@
 - 文章内容照片墙预览
 - 文章标签功能
 - 文章留言功能
+- 留言回复功能
 - Web后台管理
 
 
@@ -27,7 +28,7 @@
 4. 安装iNote           
                go get github.com/igordonshaw/inote
 
-5. 新建数据库inote并导入初始化脚本($GOPATH/src/github/igordonshaw/inote/dbinit/inote.sql)
+5. 新建数据库inote并导入初始化脚本($GOPATH/src/github.com/igordonshaw/inote/dbinit/inote.sql)
 6. 按照实际情况修改iNote配置文件中的程序运行模式、监听端口及数据库参数                  
                 ###################### 程序基本配置 ############################
 
@@ -56,7 +57,7 @@
 		dbname = inote
 
 7. 编译iNote          
-		cd $GOPATH/src/github/igordonshaw/inote          
+		cd $GOPATH/src/github.com/igordonshaw/inote          
 		go build          
 
 8. 运行iNote(nohup模式)          
