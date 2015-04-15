@@ -26,10 +26,10 @@ CREATE TABLE `message` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `guest_name` varchar(50) DEFAULT NULL,
   `content` varchar(2000) DEFAULT NULL,
+  `reply` varchar(2000) DEFAULT NULL,
   `created_at` datetime NOT NULL,
   `post_id` int(11) NOT NULL,
   `post_title` varchar(200) DEFAULT NULL,
-  `reply` varchar(2000) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8
 
